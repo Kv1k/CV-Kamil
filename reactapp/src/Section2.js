@@ -45,7 +45,7 @@ export default function Section2() {
   
     @media screen and (max-width: 575px) {
       width: 100%;
-      height: 685px;
+      height: 100vh;
       margin-bottom: 5px;
       background-color: #232323;
     }

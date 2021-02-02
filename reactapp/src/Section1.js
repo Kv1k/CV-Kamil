@@ -40,7 +40,7 @@ export default function Section1() {
       width: 100%;
       height: 1000px;
       background-color: rgb(0,0,0,0.65);
-      background-image: url(${BackgroundTabletteV}); no-repeat;
+      background-image: url(${BackgroundVerticale}); no-repeat;
       margin-bottom: 10px;
 
     }
@@ -61,7 +61,7 @@ export default function Section1() {
   
     @media screen and (max-width: 575px) {
       width: 100%;
-      height: 685px;
+      height: 100vh;
       margin-bottom: 5px;
       background-image: url(${BackgroundVerticale}); no-repeat;
     }
