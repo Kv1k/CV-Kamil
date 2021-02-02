@@ -1,0 +1,47 @@
+
+
+.nav {
+ 
+  position: sticky;
+  top:10px;
+  
+  height: 0;
+  background-color: 'red';
+  z-index: 1000;
+}
+.active{
+  color: #A02C2C;
+  border-bottom: 1.3px solid #A02C2C;
+}
+
+.nav .nav-content {
+  max-width: 00px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110%;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  color: white;
+}
+
+.nav-item:hover {
+  color: #A02C2C;
+  cursor: pointer;
+}
+.ligne_verticale
+{
+    width:5px;
+    border-left:1px solid gray;
+    height:70px;
+}
+
+
+.card{
+ 
+  
+  background-color: tomato;
+}
