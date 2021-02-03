@@ -50,14 +50,19 @@ const Hero = styled.div`
     }
   
     @media screen and (max-width: 575px) {
-      width: 100%;
-      height: 688px;
-      background-color: #232323;
-    }
-    @media screen and (max-width: 575px) {
-      width: 100%;
-      height: 688px;
-      background-color: #232323;
+    
+      @media screen and (max-height: 700px) {
+        width: 100%;
+        height: 685px;
+        margin-bottom: 5px;
+        background-color:#232323;
+      }
+      @media screen and (min-height: 701px) {
+        width: 100%;
+        height: 800px;
+        margin-bottom: 7px;
+        background-color:#232323;
+      }
     }
     
   `;

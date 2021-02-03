@@ -79,10 +79,19 @@ export default function Section4() {
   }
 
   @media screen and (max-width: 575px) {
-    width: 100%;
-    height: 685px;
-    margin-bottom: 5px;
-    background-image: url(${Background}); no-repeat;
+    
+    @media screen and (max-height: 700px) {
+      width: 100%;
+      height: 685px;
+      margin-bottom: 5px;
+      background-image: url(${Background}); no-repeat;
+    }
+    @media screen and (min-height: 701px) {
+      width: 100%;
+      height: 800px;
+      margin-bottom: 7px;
+      background-image: url(${Background}); no-repeat;
+    }
   }
   
 `;

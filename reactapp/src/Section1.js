@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Background from './moi.jpg'
 import BackgroundVerticale from './moi-mobile.jpg'
 import BackgroundHorizontale from './moi-horizontale.jpg'
-import BackgroundTabletteV from './moi-tablette-h.jpg'
+import BackgroundTabletteH from './moi-tablette-h.jpg'
 
 
 export default function Section1() {
@@ -40,7 +40,7 @@ export default function Section1() {
       width: 100%;
       height: 1000px;
       background-color: rgb(0,0,0,0.65);
-      background-image: url(${BackgroundTabletteV}); no-repeat;
+      background-image: url(${BackgroundTabletteH}); no-repeat;
       margin-bottom: 10px;
 
     }
@@ -58,21 +58,22 @@ export default function Section1() {
       }
      
     }
-    @media screen and (max-width: 375px) {
-      @media screen and (max-height: 685px) {
+  
+    @media screen and (max-width: 575px) {
+    
+      @media screen and (max-height: 700px) {
         width: 100%;
         height: 685px;
         margin-bottom: 5px;
         background-image: url(${BackgroundVerticale}); no-repeat;
-      }    
-      @media screen and (min-height: 686px) {
-      width: 100%;
-      height: 740px;
-      margin-bottom: 10px;
-      background-image: url(${BackgroundVerticale}); no-repeat;
+      }
+      @media screen and (min-height: 701px) {
+        width: 100%;
+        height: 800px;
+        margin-bottom: 7px;
+        background-image: url(${BackgroundVerticale}); no-repeat;
+      }
     }
-    }
-
     
   `;
   
