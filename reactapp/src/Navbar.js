@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import SideNav, {  NavItem, NavText } from '@trendmicro/react-sidenav';
- 
+import './index.css'
 // Be sure to include styles at some point, probably during your bootstraping
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
@@ -17,7 +17,7 @@ export default function Navbar() {
      <NavItem style={{margin:0, display:'flex', alignItems:'center', height:45}} >
     
         <Link
-            style={{textDecoration:'none', marginLeft:30}}
+            style={{textDecoration:'none', marginLeft:50}}
             activeClass="active"
             to="section1"
             spy={true}
@@ -30,7 +30,7 @@ export default function Navbar() {
       <NavItem style={{margin:0, display:'flex', alignItems:'center', height:45}} >
           
         <Link
-            style={{textDecoration:'none', marginLeft:30}}
+            style={{textDecoration:'none', marginLeft:50}}
             activeClass="active"
             to="section2"
             spy={true}
@@ -44,7 +44,7 @@ export default function Navbar() {
       <NavItem style={{margin:0, display:'flex', alignItems:'center', height:45}} >
           
         <Link
-            style={{textDecoration:'none', marginLeft:30}}
+            style={{textDecoration:'none', marginLeft:50}}
             activeClass="active"
             to="section3"
             spy={true}
@@ -58,7 +58,7 @@ export default function Navbar() {
       <NavItem style={{margin:0, display:'flex', alignItems:'center', height:45}} >
           
         <Link
-            style={{textDecoration:'none', marginLeft:30}}
+            style={{textDecoration:'none', marginLeft:50}}
             activeClass="active"
             to="section4"
             spy={true}
@@ -71,7 +71,7 @@ export default function Navbar() {
       <NavItem style={{margin:0, display:'flex', alignItems:'center', height:45}} >
           
         <Link
-            style={{textDecoration:'none', marginLeft:30}}
+            style={{textDecoration:'none', marginLeft:50}}
             activeClass="active"
             to="section5"
             spy={true}
@@ -103,14 +103,14 @@ export default function Navbar() {
   
     
     return (
-      <div  style={{fontFamily:'Poppins', fontSize:19 }}  className="nav-content nav">
+      <div  style={{fontFamily:'Poppins', fontSize:19}}  className="nav-content nav">
 
           {/* *********************************************************************************
-      *************************** Contenue Mobile verticale *********************************
+      *************************** Contenue Mobile  *********************************
       ********************************************************************************* */}
-          <div className="d-block d-md-none">
+          <div className="d-block d-md-none"  >
           <SideNav
-            
+         
             onSelect={(selected) => {
               
             }}

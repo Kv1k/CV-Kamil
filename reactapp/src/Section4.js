@@ -80,7 +80,7 @@ export default function Section4() {
 
   @media screen and (max-width: 575px) {
     width: 100%;
-    height: 100vh;
+    height: 685px;
     margin-bottom: 5px;
     background-image: url(${Background}); no-repeat;
   }

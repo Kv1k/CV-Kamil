@@ -40,7 +40,7 @@ export default function Section1() {
       width: 100%;
       height: 1000px;
       background-color: rgb(0,0,0,0.65);
-      background-image: url(${BackgroundVerticale}); no-repeat;
+      background-image: url(${BackgroundTabletteV}); no-repeat;
       margin-bottom: 10px;
 
     }
@@ -58,13 +58,21 @@ export default function Section1() {
       }
      
     }
-  
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 375px) {
+      @media screen and (max-height: 685px) {
+        width: 100%;
+        height: 685px;
+        margin-bottom: 5px;
+        background-image: url(${BackgroundVerticale}); no-repeat;
+      }    
+      @media screen and (min-height: 686px) {
       width: 100%;
-      height: 100vh;
-      margin-bottom: 5px;
+      height: 740px;
+      margin-bottom: 10px;
       background-image: url(${BackgroundVerticale}); no-repeat;
     }
+    }
+
     
   `;
   

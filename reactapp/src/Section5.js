@@ -11,37 +11,7 @@ import './index.css';
 import styled from "styled-components";
 import GitHub from './github.png'
 
-
-export default function Section5() {
-    const [email, setEmail] = useState('')
-    const [nom, setNom] = useState('')
-    const [message, setMessage] = useState('')
-    const [subject, setSubject] = useState('')
-
-    
-    const isEnabled = email.length > 0 && nom.length > 0 && message.length > 0;
-    var buttonColor;
-    if(isEnabled===true){
-        buttonColor='#a02c2c'
-    }else{
-        buttonColor='rgb(160,44,44,0.2)'
-    }
-
-    
-
-    var mailSubmit = async () => {
-        
-    
-        const data = await fetch('contact', {
-          method: 'POST',
-          headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-          body: `email=${email}&nom=${nom}&sujet=${subject}&message=${message}`
-        })
-    
-        const res = await data.json()
-      
-    }
-    const Hero = styled.div`
+const Hero = styled.div`
     font-family: 'poppins';
     padding:0;
     margin:0;
@@ -81,7 +51,12 @@ export default function Section5() {
   
     @media screen and (max-width: 575px) {
       width: 100%;
-      height: 100vh;
+      height: 688px;
+      background-color: #232323;
+    }
+    @media screen and (max-width: 575px) {
+      width: 100%;
+      height: 688px;
       background-color: #232323;
     }
     
@@ -116,6 +91,36 @@ export default function Section5() {
   }
   
 `;
+function Section5() {
+    const [email, setEmail] = useState('')
+    const [nom, setNom] = useState('')
+    const [message, setMessage] = useState('')
+    const [subject, setSubject] = useState('')
+
+    
+    const isEnabled = email.length > 0 && nom.length > 0 && message.length > 0;
+    var buttonColor;
+    if(isEnabled===true){
+        buttonColor='#a02c2c'
+    }else{
+        buttonColor='rgb(160,44,44,0.2)'
+    }
+
+    
+
+    var mailSubmit = async () => {
+        
+    
+        const data = await fetch('contact', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+          body: `email=${email}&nom=${nom}&sujet=${subject}&message=${message}`
+        })
+    
+        const res = await data.json()
+      
+    }
+    
   return (
       <Hero  id={'section5'}>
           <Row   style={{ height:'auto', width:'100%'
@@ -360,3 +365,4 @@ export default function Section5() {
       </Hero> 
   );
 }
+export default Section5
