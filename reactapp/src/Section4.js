@@ -88,7 +88,7 @@ export default function Section4() {
     }
     @media screen and (min-height: 701px) {
       width: 100%;
-      height: 800px;
+      height: 830px;
       margin-bottom: 7px;
       background-image: url(${Background}); no-repeat;
     }

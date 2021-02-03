@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^12.6.0",
     "@trendmicro/react-sidenav": "^0.5.0",
     "bootstrap": "^4.6.0",
+    "dotenv": "^8.2.0",
     "mdbreact": "^5.0.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
@@ -36,7 +37,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3000",
+  "proxy": "https://kamil-nachat.herokuapp.com",
   "eslintConfig": {
     "extends": [
       "react-app",
