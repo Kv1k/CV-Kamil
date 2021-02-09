@@ -89,7 +89,6 @@ const Hero = styled.div`
   }
 
   @media screen and (max-width: 575px) {
-    margin-top:8%;
     margin-left:5%;
 
     
