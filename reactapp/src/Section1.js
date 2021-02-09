@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Background from './moi.jpg'
 import BackgroundVerticale from './moi-mobile.jpg'
 import BackgroundHorizontale from './moi-horizontale.jpg'
-import BackgroundTabletteH from './moi-tablette-h.jpg'
+import BackgroundTabletteV from './moi-tablette-h.jpg'
 
 
 export default function Section1() {
@@ -36,14 +36,26 @@ export default function Section1() {
       height: 697px;
 
     }
-    @media screen and (max-width: 991px) {
-      width: 100%;
-      height: 1000px;
-      background-color: rgb(0,0,0,0.65);
-      background-image: url(${BackgroundTabletteH}); no-repeat;
-      margin-bottom: 10px;
+   
+      @media screen and (max-width: 991px) {
+        @media screen and (min-height: 391px) {
+        width: 100%;
+        height: 1000px;
+        background-color: rgb(0,0,0,0.65);
+        background-image: url(${BackgroundTabletteV}); no-repeat;
+        margin-bottom: 10px;
+        }
+        @media screen and (max-height: 390px) {
+          width: 100%;
+          height: 390px;
+          background-color: rgb(0,0,0,0.65);
+          background-image: url(${BackgroundHorizontale}); no-repeat;
+          margin-bottom: 10px;
+          }
+  
+      }
+    
 
-    }
     @media screen and (max-width: 767px)  {
       background-image: url(${BackgroundHorizontale}); no-repeat;
 
@@ -56,8 +68,10 @@ export default function Section1() {
         width: 100%;
         height: 357px;
       }
+      
      
     }
+    
   
     @media screen and (max-width: 575px) {
     
@@ -69,13 +83,119 @@ export default function Section1() {
       }
       @media screen and (min-height: 701px) {
         width: 100%;
-        height: 830px;
+        height: 836px;
         margin-bottom: 7px;
         background-image: url(${BackgroundVerticale}); no-repeat;
       }
     }
     
   `;
+  const Function = styled.div`
+ 
+   font-size:40px;
+   padding-top:100px;
+   margin-left:7%;
+   
+
+    @media screen and (max-width: 1199px) {
+     font-size:28px;
+      padding-top:100px;
+      margin-left:7%;
+
+    }
+ 
+    @media screen and (max-width: 991px) {
+      @media screen and (min-height: 391px) {
+        font-size:28px;
+        marginTop:10%;
+      }
+      @media screen and (max-height: 390px) {
+        font-size:16px;
+        padding-top:8%;
+       
+      }
+
+    }
+     
+    
+
+    @media screen and (max-width: 767px)  {
+      font-size:16px;
+      padding-top:8%;
+     
+    }
+    
+    @media screen and (max-width: 575px) {
+      font-size:19px;
+      padding-top:20%;
+      margin-left:2%;
+      width:auto;
+    }
+    
+  `;
+  const Trait1 = styled.div`
+  @media screen and (max-width: 1199px) {
+    background-color:#8C8C8C;
+    width:1px;
+    margin-top:-5px;
+    height:280px;
+    position:absolute;
+    margin-left:3px;
+
+  }
+  @media screen and (max-width: 991px) {
+    @media screen and (min-height: 391px) {
+      background-color:#8C8C8C;
+      width:1px;
+      margin-top:-5px;
+      height:280px;
+      position:absolute;
+      margin-left:3px;
+    }
+    @media screen and (max-height: 390px) {
+      background-color:#8C8C8C;
+      width:1px;
+      margin-top:-5px;
+      height:175px;
+      position:absolute;
+      margin-left:1px;
+     
+    }
+
+  }
+`;
+const Trait2 = styled.div`
+  @media screen and (max-width: 1199px) {
+    background-color:#8C8C8C;
+      width:1px;
+      margin-top:-20px;
+      height:150px;
+      position:absolute;
+      margin-left:2px;
+
+  }
+  @media screen and (max-width: 991px) {
+    @media screen and (min-height: 391px) {
+      background-color:#8C8C8C;
+      width:1px;
+      margin-top:-20px;
+      height:150px;
+      position:absolute;
+      margin-left:2px;
+    }
+    @media screen and (max-height: 390px) {
+      background-color:#8C8C8C;
+      width:1px;
+      margin-top:-20px;
+      height:100px;
+      position:absolute;
+      margin-left:1px;
+     
+    }
+
+  }
+`;
+
   
   return (
     
@@ -131,7 +251,7 @@ export default function Section1() {
         {/* *********************************************************************************
       *************************** Contenue Mobile *********************************
       ********************************************************************************* */}
-        <div  className='d-block d-sm-none' style={{fontSize:19, paddingTop:'20%', width:'auto', marginLeft:'2%'}}>
+        <Function  className='d-block d-sm-none'>
 
         <div style={{display:'flex', flexDirection:'row', color:'#1674C4', marginBottom:6}}>
             function &nbsp; <div style={{color:'#FFFCB9'}}>Développeur web&nbsp;</div> 
@@ -169,7 +289,7 @@ export default function Section1() {
 
           <div  style={{display:'flex', flexDirection:'row',color:'#FFF700'}}>{accolade2} <p style={{color:'white'}}>&nbsp;;</p>  </div>
         
-        </div>
+        </Function>
 
           {/* *********************************************************************************
         *************************** Contenue Mobile horizontale & Tablette *********************************
@@ -177,7 +297,7 @@ export default function Section1() {
         <div  className='d-none d-sm-block d-xl-none' style={{fontSize:18, paddingTop:'3%', marginLeft:'2%'}}>
           
           {/* //////// Mobile //////// */}
-          <div className='d-none d-sm-block d-md-none' style={{fontSize:16,  paddingTop:'8%',}}>
+          <Function className='d-none d-sm-block d-md-none' >
             <div style={{display:'flex', flexDirection:'row', color:'#1674C4', marginBottom:2}}>
               function &nbsp; <div style={{color:'#FFFCB9'}}>Développeur web&nbsp;</div> 
               <div style={{color:'#FFF700'}}>(</div> <div style={{color:'#90dffa'}}>&nbsp;React&nbsp;</div> 
@@ -214,25 +334,24 @@ export default function Section1() {
 
             <div  style={{display:'flex', flexDirection:'row',color:'#FFF700'}}>{accolade2} <p style={{color:'white'}}>&nbsp;;</p>  </div>
           
-          </div>
+          </Function>
 
           {/* //////// Tablette //////// */}
-          <div className='d-none d-md-block d-xl-none' style={{fontSize:28, marginTop:'10%'}}>
+          <Function className='d-none d-md-block d-xl-none'>
             <div style={{display:'flex', flexDirection:'row', color:'#1674C4', marginBottom:2}}>
               function &nbsp; <div style={{color:'#FFFCB9'}}>Développeur web&nbsp;</div> 
               <div style={{color:'#FFF700'}}>(</div> <div style={{color:'#90dffa'}}>&nbsp;React&nbsp;</div> 
               <div  style={{color:'#FFF700'}}>)</div> <div  style={{color:'#FFF700'}}>&nbsp;{accolade1}</div>
             </div>
 
-            <div style={{backgroundColor:'#8C8C8C',width:1,  marginTop:-5,height:280, position:'absolute', marginLeft:3}}></div>
+            <Trait1></Trait1>
 
             <div style={{paddingLeft:20, color:'#90dffa'}}>
 
               <div style={{display:'flex', flexDirection:'row', marginTop:5}}><p style={{color:'#1674C4'}}>var</p> &nbsp;<p>présentation&nbsp;</p>          
                 <p style={{color:'white'}}> =</p> <p style={{color:'#db6dd3'}}>&nbsp;{accolade1}</p >
               </div>            
-              <div style={{backgroundColor:'#8C8C8C',width:1, height:150, position:'absolute', marginTop:-20, marginLeft:2}}></div>
-
+              <Trait2></Trait2>
                 <div style={{display:'flex', flexDirection:'row', marginTop:5,paddingLeft:20}}> 
                   <div>Prénom:</div>
                   <div style={{color:'#c6937d'}}>&nbsp;"Kamil"</div> <div style={{color:'white'}}>,</div>
@@ -254,7 +373,7 @@ export default function Section1() {
 
             <div  style={{display:'flex', flexDirection:'row',color:'#FFF700'}}>{accolade2} <p style={{color:'white'}}>&nbsp;;</p>  </div>
 
-          </div>
+          </Function>
         
         </div>
         </div>

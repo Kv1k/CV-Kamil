@@ -54,13 +54,11 @@ const Hero = styled.div`
       @media screen and (max-height: 700px) {
         width: 100%;
         height: 685px;
-        margin-bottom: 5px;
         background-color:#232323;
       }
       @media screen and (min-height: 701px) {
         width: 100%;
-        height: 830px;
-        margin-bottom: 7px;
+        height: 836px;
         background-color:#232323;
       }
     }
@@ -92,6 +90,8 @@ const Hero = styled.div`
 
   @media screen and (max-width: 575px) {
     margin-top:8%;
+    margin-left:5%;
+
     
   }
   
@@ -362,7 +362,7 @@ function Section5() {
             
               </Col> 
             </Col>         
-<Copyright>© Kamil NACHAT</Copyright> 
+          <Copyright>© Kamil NACHAT</Copyright> 
 
           </Row>            
 

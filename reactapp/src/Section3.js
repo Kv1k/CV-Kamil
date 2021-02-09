@@ -268,7 +268,7 @@ export default function Section3() {
         <div style={{height:1650, backgroundColor:'rgb(0,0,0,0.5)'
         ,display:'flex', flexDirection:'column', alignItems:'center', }} > 
           <div className='d-block d-sm-none' style={{ color:'white',fontSize:20,fontWeight:'lighter', marginLeft:150, paddingTop:30, paddingBottom:20}}>#Projet professionnel</div>                  
-          <div className='d-none d-sm-block' style={{ color:'white',fontSize:20,fontWeight:'lighter', marginLeft:350, paddingTop:30, paddingBottom:20}}>#Projet professionnel</div>                  
+          <div className='d-none d-sm-block' style={{ color:'white',fontSize:20,fontWeight:'lighter', marginLeft:'70%', paddingTop:30, paddingBottom:20}}>#Projet professionnel</div>                  
 
             <Row style={{fontSize:12, display:'flex', width:'100%'
             , alignItems:'center', justifyContent:'center'}}>
@@ -276,7 +276,7 @@ export default function Section3() {
             </Row>
 
           <div className='d-block d-sm-none' style={{ color:'white',fontSize:20,fontWeight:'lighter', marginLeft:150,paddingBottom:20 }}>#Projet académique</div>                  
-          <div className='d-none d-sm-block' style={{ color:'white',fontSize:20,fontWeight:'lighter', marginLeft:350, paddingTop:30, paddingBottom:20}}>#Projet académique</div>                  
+          <div className='d-none d-sm-block' style={{ color:'white',fontSize:20,fontWeight:'lighter', marginLeft:'70%', paddingTop:30, paddingBottom:20}}>#Projet académique</div>                  
 
             <Row style={{fontSize:10, display:'flex', width:'100%'
               , alignItems:'center', justifyContent:'center'}}>
