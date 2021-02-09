@@ -8,14 +8,19 @@ const creds = require('../config.js');
 
 
 var transport = {
-  pool : true , 
-  maxConnections:1,
-  host: 'smtp.free.fr', // Don’t forget to replace with the SMTP host of your provider
-  port: 25,
+  maxConnections:30,
+  host: 'smtp.gmail.com',
+  port: 465,
+  secure: true,
   auth: {
-  user: creds.USER,
-  pass: creds.PASS
-}
+      type: 'OAuth2',
+      user: 'kam.nach34@gmail.com',
+      clientId: '523889534088-rjmongrhbc3nr6662k3n6bmae8f7edeh.apps.googleusercontent.com',
+      clientSecret: 'YcwhXqwfojzZ-qtWqRRb-FJ3',
+      refreshToken: '1//04l_HzGTvfYS3CgYIARAAGAQSNwF-L9IroCbmGKOxxaoNRYfXMujFIV_O3YWnNUdUpi5dqQw95ZOcSIm2HZzRGiRjXo09Qj0Z3Fw',
+      accessToken: 'ya29.a0AfH6SMCHD1fSh8rRSt5jo3RFlAwoyC_ILiF1sTdmR7YYIYLZ5BCHZ1hgPVmRmR7YQQgoNOf6y3YFXjmlUusR3T0172WPrGqi1NDOPiIlBG5d887BzmsGWInzGVwr8NsqK9XC8KJ2L0wNlQJPIQdxEVqrPVpSnH52MIBNA-oB4bs'
+  }
+  
 }
 var transporter = nodemailer.createTransport(transport)
 
@@ -36,7 +41,7 @@ router.post('/contact', (req, res, next) => {
 
   var mail = {
     from: email,
-    to: 'kam.nach@hotmail.com',  // Change to email address that you want to receive messages on
+    to: 'kam.nach34@gmail.com',  // Change to email address that you want to receive messages on
     subject: sujet,
     text: content
   }
