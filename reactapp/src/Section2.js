@@ -79,9 +79,9 @@ export default function Section2() {
                     <p  style={{marginLeft:30, fontStyle:'italic',fontSize:30,  }}>Apprendre, c'est se retrouver.</p>
                     <p style={{backgroundColor:'#A02C2C', width:175, textAlign:'center', marginTop:10}}>Malcolm De Chazal</p>
                     <p style={{fontWeight:'lighter', fontSize:15,  color:'#909090',marginTop:30}}>
-                        Ma curiosité et mon amour pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
-                        Une profession épanouissante est, pour moi, une activité mélant à la fois créativité et apprentissage constant.<br/>
-                        Ainsi, je cherche un stage en tant que développeur pour <br/>valider mon diplôme et en faire mon métier.
+                        Ma curiosité et mon attrait pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
+                        Une profession épanouissante est, à mon sens, une activité mêlant créativité et apprentissage constant.<br/>
+                        Ainsi, je cherche un stage en tant que développeur afin de <br/>valider mon diplôme.
                     </p>
                 </Col>
                
@@ -108,9 +108,9 @@ export default function Section2() {
             <p style={{marginLeft:200,backgroundColor:'#A02C2C', width:150, textAlign:'center', marginTop:-10, fontSize:13,marginBottom:22}}>Malcolm De Chazal</p>
             <Col xs={12} style={{ color:'white',fontSize:12,fontWeight:'lighter',color:'#909090',marginBottom:50 }}>  
                 
-                        Ma curiosité et mon amour pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
-                        Une profession épanouissante est, pour moi, une activité mêlant à la fois créativité et apprentissage constant.<br/>
-                        Ainsi, je cherche un stage en tant que développeur pour valider mon diplôme et en faire mon métier.
+                        Ma curiosité et mon attrait pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
+                        Une profession épanouissante est, à mon sens, une activité mêlant créativité et apprentissage constant.<br/>
+                        Ainsi, je cherche un stage en tant que développeur afin de valider mon diplôme.
             </Col>                 
             <Col xs={12} style={{display:'flex',justifyContent:'center',height:'100%', marginTop:'4%', width:'100%',paddingLeft:'7%'}}>
                 
@@ -139,9 +139,9 @@ export default function Section2() {
                         <p  style={{marginLeft:10, fontStyle:'italic',fontSize:18,  }}>Apprendre, c'est se retrouver.</p>
                         <p style={{marginLeft:120,backgroundColor:'#A02C2C', width:150, textAlign:'center', marginTop:-10, fontSize:13,marginBottom:22}}>Malcolm De Chazal</p>
                         <p style={{fontWeight:'lighter',marginTop:'3%', fontSize:12, width:300, color:'#909090',textAlign:'center'}}>
-                            Ma curiosité et mon amour pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
-                            Une profession épanouissante est, pour moi, une activité mélant à la fois créativité et apprentissage constant.<br/>
-                            Ainsi, je cherche un stage en tant que développeur pour valider mon diplôme et en faire mon métier.
+                            Ma curiosité et mon attrait pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
+                            Une profession épanouissante est, à mon sens, une activité mêlant créativité et apprentissage constant.<br/>
+                            Ainsi, je cherche un stage en tant que développeur afin de valider mon diplôme.
                         </p>
                     </div>    
                 </Col> 
@@ -172,9 +172,9 @@ export default function Section2() {
                         <p  style={{marginLeft:30, fontStyle:'italic',fontSize:18,   width:280}}>Apprendre, c'est se retrouver.</p>
                         <p style={{marginLeft:150,backgroundColor:'#A02C2C', width:150, textAlign:'center', marginTop:-10, fontSize:13,marginBottom:22}}>Malcolm De Chazal</p>
                         <p style={{fontWeight:'lighter',marginTop:27, fontSize:12, width:300, color:'#909090',marginTop:30, textAlign:'center'}}>
-                            Ma curiosité et mon amour pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
-                            Une profession épanouissante est, pour moi, une activité mélant à la fois créativité et apprentissage constant.<br/>
-                            Ainsi, je cherche un stage en tant que développeur pour valider mon diplôme et en faire mon métier.
+                            Ma curiosité et mon attrait pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
+                            Une profession épanouissante est, à mon sens, une activité mêlant créativité et apprentissage constant.<br/>
+                            Ainsi, je cherche un stage en tant que développeur afin de valider mon diplôme.
                         </p>
                     </div>    
                 </Col> 
