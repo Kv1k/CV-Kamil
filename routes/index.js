@@ -14,11 +14,11 @@ var transport = {
   secure: true,
   auth: {
       type: 'OAuth2',
-      user: process.env.user,
+      user: 'kam.nach34@gmail.com',
       clientId: process.env.clientId,
       clientSecret: process.env.clientSecret,
-      refreshToken: process.env.refreshToken,
-      accessToken: process.env.accessToken
+      refreshToken:'1//04xrsWDpQ_RewCgYIARAAGAQSNwF-L9IrwrcRO9akxa27pC8ouGxFoOC1hK1oHyn5KbkpxwEeBzEi22eJnqd-rvCRxFw1C9X6BeA',
+      accessToken:'ya29.a0AfH6SMAZ2pskeRB-Qd7KcVfb5Hi3SqGzWq3CYTQKKumLZhnwpr01fFRneZTjVEic8Ih-RdUPT7UK5A2r_vip1IrDcuhkTNR1wPocNmnu2yOGoOBY8_udNTiRABLlW7uaoBZtqeQxxjusj6dsWd9MBqp7_NmN_VHlXq-f5BY3b6w'
   }
   
 }
