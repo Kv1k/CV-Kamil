@@ -23,6 +23,7 @@
     "react-scroll": "^1.8.1",
     "react-sidebar": "^3.0.2",
     "react-simple-sidenav": "^2.0.0",
+    "react-spinners": "^0.10.4",
     "react-tooltip": "^4.2.13",
     "reactstrap": "^8.8.1",
     "rsuite": "^4.8.8",

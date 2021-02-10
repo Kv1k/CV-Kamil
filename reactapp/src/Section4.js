@@ -1,5 +1,8 @@
 import React, {useState} from "react";
 import Background from './experienceDiplome.jpg'
+import BackgroundVerticale from './experienceDiplome-mobile.jpg'
+import BackgroundHorizontale from './experienceDiplome-mobileH.jpg'
+import BackgroundTabletteV from './experienceDiplome-tabletteV.jpg'
 import './index.css';
 import {
   Card, 
@@ -61,19 +64,19 @@ export default function Section4() {
     width: 100%;
     margin-bottom: 10px;
     height: 1000px;
-    background-image: url(${Background}); no-repeat;
+    background-image: url(${BackgroundTabletteV}); no-repeat;
   }
   @media screen and (max-width: 767px)  {
     margin-bottom: 5px;
     @media screen and (min-height: 351px)  {
       width: 100%;
       height: 389px;
-      background-image: url(${Background}); no-repeat;
+      background-image: url(${BackgroundHorizontale}); no-repeat;
     }
     @media screen and (max-height: 351px)  {
       width: 100%;
       height: 357px;
-      background-image: url(${Background}); no-repeat;
+      background-image: url(${BackgroundHorizontale}); no-repeat;
     }
    
   }
@@ -84,13 +87,13 @@ export default function Section4() {
       width: 100%;
       height: 685px;
       margin-bottom: 5px;
-      background-image: url(${Background}); no-repeat;
+      background-image: url(${BackgroundVerticale}); no-repeat;
     }
     @media screen and (min-height: 701px) {
       width: 100%;
       height: 836px;
       margin-bottom: 8px;
-      background-image: url(${Background}); no-repeat;
+      background-image: url(${BackgroundVerticale}); no-repeat;
     }
   }
   

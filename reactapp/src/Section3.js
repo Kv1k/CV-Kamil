@@ -1,6 +1,11 @@
 import React from "react";
 import Background from './projetBackground.jpg'
+import BackgroundVerticale from './projetBackground-mobile.jpg'
+import BackgroundHorizontale from './projetBackground-mobileH.jpg'
+import BackgroundTabletteV from './projetBackground-tabletteV.jpg'
 import ReactTooltip from 'react-tooltip';
+import styled from "styled-components";
+
 import {
   Card, CardText,
   CardTitle, Row, Col
@@ -17,6 +22,78 @@ import DesktopIcon from './desktopIcon.png'
 var link="https://github.com/kv1k"
 
 export default function Section3() {
+
+  const Hero = styled.div`
+  font-family: 'poppins';
+  padding:0;
+  margin:0;
+  width: 100%;
+  height: 1300px;
+  background-image: url(${Background}); no-repeat;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+
+  
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 7px;
+    width: 100%;
+    height: 1650px;
+
+  }
+ 
+    @media screen and (max-width: 991px) {
+      @media screen and (min-height: 391px) {
+      width: 100%;
+      height: 1650px;
+      background-color: rgb(0,0,0,0.65);
+      background-image: url(${BackgroundTabletteV}); no-repeat;
+      margin-bottom: 10px;
+      }
+      @media screen and (max-height: 390px) {
+        width: 100%;
+        height: 1650px;
+        background-color: rgb(0,0,0,0.65);
+        background-image: url(${BackgroundHorizontale}); no-repeat;
+        margin-bottom: 10px;
+        }
+
+    }
+  
+
+  @media screen and (max-width: 767px)  {
+    background-image: url(${BackgroundHorizontale}); no-repeat;
+
+    margin-bottom: 7px;
+    @media screen and (min-height: 351px)  {
+      width: 100%;
+      height: 1650px;
+    }
+    @media screen and (max-height: 351px)  {
+      width: 100%;
+      height: 1650px;
+    }
+    
+   
+  }
+  
+
+  @media screen and (max-width: 575px) {
+  
+    @media screen and (max-height: 700px) {
+      width: 100%;
+      height: 1650px;
+      margin-bottom: 5px;
+      background-image: url(${BackgroundVerticale}); no-repeat;
+    }
+    @media screen and (min-height: 701px) {
+      width: 100%;
+      height: 1650px;
+      margin-bottom: 7px;
+      background-image: url(${BackgroundVerticale}); no-repeat;
+    }
+  }
+  
+`;
   var allDataAcademique= [
     {
       nom: "Morning News",
