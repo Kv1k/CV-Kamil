@@ -70,10 +70,10 @@ export default function LinearWithValueLabel() {
                     </Box>        
                     <Box display="flex" alignItems="center">
                         <Box width="100%" mr={1}>
-                            <StyledLinearProgress style={{borderRadius:50}}variant="determinate" value={65}/>
+                            <StyledLinearProgress style={{borderRadius:50}}variant="determinate" value={50}/>
                         </Box>
                         <Box >
-                            <Typography variant="body2" style={{color:'#A02C2C', fontSize:13, fontFamily:'poppins'}}>{`65%`}</Typography>
+                            <Typography variant="body2" style={{color:'#A02C2C', fontSize:13, fontFamily:'poppins'}}>{`50%`}</Typography>
                         </Box>
                     </Box>
 
@@ -233,10 +233,10 @@ export default function LinearWithValueLabel() {
                         variant="body2" style={{color:'#A02C2C', fontSize:11, fontFamily:'poppins'}}>CSS</Typography>                    </Box>        
                     <Box display="flex" alignItems="center">
                         <Box width="100%" mr={1}>
-                            <StyledLinearProgress style={{borderRadius:50}}variant="determinate" value={65}/>
+                            <StyledLinearProgress style={{borderRadius:50}}variant="determinate" value={50}/>
                         </Box>
                         <Box >
-                            <Typography variant="body2" style={{color:'#A02C2C', fontSize:13, fontFamily:'poppins'}}>{`65%`}</Typography>
+                            <Typography variant="body2" style={{color:'#A02C2C', fontSize:13, fontFamily:'poppins'}}>{`50%`}</Typography>
                         </Box>
                     </Box>
 

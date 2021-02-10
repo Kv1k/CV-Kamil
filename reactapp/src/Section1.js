@@ -20,8 +20,8 @@ export default function Section1() {
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover;
 
-    @media screen and (max-width: 1800px) {
-     
+    @media screen and (min-width: 1800px) {
+      min-height:980px;
     }
     @media screen and (min-width: 1199px) {
       min-height:800px;
