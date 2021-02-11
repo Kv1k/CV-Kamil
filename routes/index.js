@@ -15,7 +15,7 @@ var transport = {
       type: 'OAuth2',
       user: 'kam.nach34@gmail.com',
       clientId: '848252838249-9h40792luvc2r0a6fpqnumd5s4s8g89l.apps.googleusercontent.com' ,
-      clientSecret: process.env.clientSecret,
+      clientSecret: 'Ypy-fdl3yocove-mEndBTD3s',
       refreshToken:'1//04ZdoWNrEdKchCgYIARAAGAQSNwF-L9Ir2mrdtJLDk5758lN4g-Yw6zdU3nsEXaXlCcZ43Uy38csVgmCoquAvY3cL62_QKQilOw0',
       accessToken:'ya29.a0AfH6SMBR6mt5zamMRUGkmAzC7KUPfrx3BGHwNLPItOlqY2OMJWPtN3E_qTBJHYZ7C7FbXaQNomGP6FYzksoQkbGU8OYD3c-HIfL0xwfVFMfO7sI5Bk_q68--9C4ZVUJ1H2k1treCOItMhQtccDvmTpE_7_btSQX_96qUtOjItvM'
   }
