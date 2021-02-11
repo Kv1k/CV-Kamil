@@ -41,12 +41,12 @@ export default function LinearWithValueLabel() {
                     <Box display="flex" alignItems="center">
                         <Box width="100%" mr={1}>
                             <StyledLinearProgress 
-                            style={{borderRadius:50}}variant="determinate" value={65}/>
+                            style={{borderRadius:50}}variant="determinate" value={70}/>
                             
                           
                         </Box>
                         <Box >
-                            <Typography variant="body2" style={{color:'#A02C2C', fontSize:13, fontFamily:'poppins'}}>{`65%`}</Typography>
+                            <Typography variant="body2" style={{color:'#A02C2C', fontSize:13, fontFamily:'poppins'}}>{`70%`}</Typography>
                         </Box>
                     </Box>
 
@@ -108,7 +108,7 @@ export default function LinearWithValueLabel() {
         
           
                 <div style={{ marginBottom:'1.5%',fontSize:15}}>Programmation Back-end :</div>
-                <Box display="flex" flexDirection="column" style={{marginBottom:10}}>
+                <Box display="flex" flexDirection="column" >
                     <Box display="flex" flexDirection="row">
                         <Typography 
                         variant="body2" style={{color:'#A02C2C', fontSize:14, fontFamily:'poppins'}}>Node.JS / Express</Typography>
@@ -120,6 +120,22 @@ export default function LinearWithValueLabel() {
                         </Box>
                         <Box >
                             <Typography variant="body2" style={{color:'#A02C2C', fontSize:13, fontFamily:'poppins'}}>{`55%`}</Typography>
+                        </Box>
+                    </Box>
+                
+                </Box>
+                <Box display="flex" flexDirection="column" style={{marginBottom:10}}>
+                    <Box display="flex" flexDirection="row">
+                        <Typography 
+                        variant="body2" style={{color:'#A02C2C', fontSize:14, fontFamily:'poppins'}}>Postman</Typography>
+                    </Box>
+                
+                    <Box display="flex" alignItems="center">
+                        <Box width="100%" mr={1}>
+                            <StyledLinearProgress style={{borderRadius:50}}variant="determinate" value={45}/>
+                        </Box>
+                        <Box >
+                            <Typography variant="body2" style={{color:'#A02C2C', fontSize:13, fontFamily:'poppins'}}>{`45%`}</Typography>
                         </Box>
                     </Box>
                 
@@ -202,12 +218,12 @@ export default function LinearWithValueLabel() {
                     <Box display="flex" alignItems="center">
                         <Box width="100%" mr={1}>
                             <StyledLinearProgress 
-                            style={{borderRadius:50}}variant="determinate" value={65}/>
+                            style={{borderRadius:50}}variant="determinate" value={70}/>
                             
                         
                         </Box>
                         <Box>
-                            <Typography variant="body2" style={{color:'#A02C2C', fontSize:13, fontFamily:'poppins'}}>{`65%`}</Typography>
+                            <Typography variant="body2" style={{color:'#A02C2C', fontSize:13, fontFamily:'poppins'}}>{`70%`}</Typography>
                         </Box>
                     </Box>
 
@@ -273,7 +289,7 @@ export default function LinearWithValueLabel() {
 
             <Col xs={6} md={12} >
                 <div style={{ fontSize:13,  }}>Programmation Back-end :</div>
-                <Box display="flex" flexDirection="column" style={{marginBottom:10}}>
+                <Box display="flex" flexDirection="column" style={{marginBottom:4}}>
                     <Box display="flex" flexDirection="row"  >
                         <Typography className='d-none  d-md-block' 
                         variant="body2" style={{color:'#A02C2C', fontSize:14, fontFamily:'poppins'}}>Node.JS / Express</Typography>
@@ -290,6 +306,24 @@ export default function LinearWithValueLabel() {
                     </Box>
                 
                 </Box>
+                <Box display="flex" flexDirection="column" style={{marginBottom:10}}>
+                    <Box display="flex" flexDirection="row"  >
+                        <Typography className='d-none  d-md-block' 
+                        variant="body2" style={{color:'#A02C2C', fontSize:14, fontFamily:'poppins'}}>Postman</Typography>
+                        <Typography className='d-block  d-md-none' 
+                        variant="body2" style={{color:'#A02C2C', fontSize:11, fontFamily:'poppins', }}>Postman</Typography>                             </Box>
+                
+                    <Box display="flex" alignItems="center">
+                        <Box width="100%" mr={1}>
+                            <StyledLinearProgress style={{borderRadius:50}}variant="determinate" value={45}/>
+                        </Box>
+                        <Box >
+                            <Typography variant="body2" style={{color:'#A02C2C', fontSize:13, fontFamily:'poppins'}}>{`45%`}</Typography>
+                        </Box>
+                    </Box>
+                
+                </Box>
+
 
                 <div style={{ fontSize:13,  }}>Data :</div>
                 <Box display="flex" flexDirection="column" style={{marginBottom:10}}>
