@@ -9,8 +9,7 @@ require('dotenv').config()
 
 var transport = {
   maxConnections:30,
-  host: 'smtp.gmail.com',
-  port: 465,
+  service:'gmail',
   secure: true,
   auth: {
       type: 'OAuth2',
