@@ -133,7 +133,7 @@ export default function Section4() {
                       <h3 style={{fontSize:16, paddingTop:2}}>Titre professionnel Développeur web et web mobile </h3>
                       <div style={{fontSize:13, fontWeight:'lighter',  marginTop:2}}> La Capsule coding bootcamp | Lyon, France   </div>
                       <div style={{fontSize:12, fontWeight:'normal', marginTop:1, color:'#a02c2c'}}>
-                        2020</div>
+                        2020 - aujourd'hui</div>
 
                     </div> 
                      
@@ -180,7 +180,7 @@ export default function Section4() {
                       <h3 style={{fontSize:12, paddingTop:2}}>Titre professionnel Développeur web et web mobile </h3>
                       <div style={{fontSize:10, fontWeight:'lighter',  marginTop:2}}> La Capsule coding bootcamp | Lyon, France   </div>
                       <div style={{fontSize:11, fontWeight:'normal', marginTop:1, color:'#a02c2c'}}>
-                        2020</div>
+                        2020 - aujourd'hui</div>
 
                     </div> 
                      
@@ -222,7 +222,7 @@ export default function Section4() {
                       <h3 style={{fontSize:12, paddingTop:2}}>Titre professionnel Développeur web et web mobile </h3>
                       <div style={{fontSize:10, fontWeight:'lighter',  marginTop:2}}> La Capsule coding bootcamp | Lyon, France   </div>
                       <div style={{fontSize:11, fontWeight:'normal', marginTop:1, color:'#a02c2c'}}>
-                        2020</div>
+                        2020 - aujourd'hui</div>
 
                     </div> 
                      
@@ -272,7 +272,7 @@ export default function Section4() {
                       <h3 style={{fontSize:16, paddingTop:2}}>Titre professionnel Développeur web et web mobile </h3>
                       <div style={{fontSize:13, fontWeight:'lighter',  marginTop:2}}> La Capsule coding bootcamp | Lyon, France   </div>
                       <div style={{fontSize:12, fontWeight:'normal', marginTop:1, color:'#a02c2c'}}>
-                        2020</div>
+                        2020 - aujourd'hui</div>
 
                     </div> 
                      

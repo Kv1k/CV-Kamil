@@ -126,7 +126,7 @@ export default function Section1() {
     }
     
     @media screen and (max-width: 575px) {
-      font-size:19px;
+      font-size:16px;
       padding-top:20%;
       margin-left:2%;
       width:auto;

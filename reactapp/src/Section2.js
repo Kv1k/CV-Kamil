@@ -58,6 +58,12 @@ export default function Section2() {
         background-color:#232323;
       }
     }
+    @media only screen and (max-width: 365px) { 
+      width: 100%;
+      height: 860px;
+      margin-bottom: 7px;
+      background-color:#232323;
+    }
     
   `;
  
@@ -103,9 +109,9 @@ export default function Section2() {
             ********************************************************************************* */}
 
         <Col style={{paddingTop:'20%', color:'white',  width:'100%'}}className='d-block d-sm-none'> 
-            <img src={Guillemet} style={{marginLeft:80,height:30}}/>
-            <p  style={{marginLeft:80, fontStyle:'italic',fontSize:18,  }}>Apprendre, c'est se retrouver.</p>
-            <p style={{marginLeft:200,backgroundColor:'#A02C2C', width:150, textAlign:'center', marginTop:-10, fontSize:13,marginBottom:22}}>Malcolm De Chazal</p>
+            <img src={Guillemet} style={{marginLeft:30,height:30}}/>
+            <p  style={{marginLeft:30, fontStyle:'italic',fontSize:18,  }}>Apprendre, c'est se retrouver.</p>
+            <p style={{marginLeft:150,backgroundColor:'#A02C2C', width:150, textAlign:'center', marginTop:-10, fontSize:13,marginBottom:22}}>Malcolm De Chazal</p>
             <Col xs={12} style={{ color:'white',fontSize:12,fontWeight:'lighter',color:'#909090',marginBottom:50 }}>  
                 
                         Ma curiosité et mon attrait pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>

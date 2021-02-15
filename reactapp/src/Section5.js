@@ -137,19 +137,16 @@ function Section5() {
               {/* ///// Contenue ordinateur & tablette horizontale ///// */}
                         
               <Col className='d-none d-xl-block' style={{marginTop:120}} > 
-                <div className='d-none d-lg-block d-xl-none' style={{ color:'white',fontSize:35,fontWeight:'lighter', marginLeft:80}}>#Coordonnées</div> 
                 <div className='d-none d-lg-none d-xl-block' style={{ color:'white',fontSize:35,fontWeight:'lighter', marginLeft:80, marginTop:50}}>#Coordonnées</div> 
 
                 <div style={{ marginLeft:80, color:'white', marginTop:60}}> 
                   <Row style={{marginTop:'4%', marginLeft:4}}>                  
                     <FontAwesomeIcon icon={faPhoneAlt} size="3x" style={{marginRight:'6%'}} /> 
                     <p className='d-none d-xl-block' style={{fontSize:29, fontWeight:'lighter'}}> 07.83.97.19.32</p>
-                    <p className='d-block d-xl-none' style={{fontSize:24, fontWeight:'lighter'}}> 07.83.97.19.32</p>
                   </Row>
                   <Row style={{ marginTop:40, marginLeft:4 }}>
                     <FontAwesomeIcon icon={faMapMarkerAlt} size="3x" style={{marginRight:'6%'}} />
-                    <p className='d-none d-xl-block' style={{fontSize:27, fontWeight:'lighter', width:330, }}>6 rue maumarin, 34920 Le Crès, France </p>
-                    <p className='d-block d-xl-none' style={{fontSize:20, fontWeight:'lighter', width:200, }}>6 rue maumarin, 34920 Le Crès, France </p>
+                    <p className='d-none d-xl-block' style={{fontSize:27, fontWeight:'lighter', width:350, }}>11 Allée Marguerite Duras, 77270 Villeparisis, France </p>
                   </Row>
                   <Row style={{ marginTop:40, marginLeft:4, marginBottom:25 }}>
                     <FontAwesomeIcon icon={faEnvelope} size="3x" style={{marginRight:'6%'}} />
@@ -172,7 +169,7 @@ function Section5() {
                   </Row>
                   <Row style={{ marginTop:10, marginLeft:4 }}>
                     <FontAwesomeIcon icon={faMapMarkerAlt} size="2x" style={{marginRight:'6%'}} />
-                    <p  style={{fontSize:16, fontWeight:'lighter', width:180, }}>6 rue maumarin, 34920 Le Crès, France </p>
+                    <p  style={{fontSize:16, fontWeight:'lighter', width:200, }}>11 Allée Marguerite Duras, 77270 Villeparisis, France </p>
                   </Row>
                   <Row style={{ marginTop:10, marginLeft:4 }}>
                     <FontAwesomeIcon icon={faEnvelope} size="2x" style={{marginRight:'6%'}} />
@@ -194,7 +191,7 @@ function Section5() {
                   </Row>
                   <Row style={{ marginTop:10, marginLeft:4 }}>
                     <FontAwesomeIcon icon={faMapMarkerAlt} size="2x" style={{marginRight:'6%'}} />
-                    <p  style={{fontSize:22, fontWeight:'lighter', width:500, }}>6 rue maumarin, 34920 Le Crès, France </p>
+                    <p  style={{fontSize:19, fontWeight:'lighter', width:300, }}>11 Allée Marguerite Duras, 77270 Villeparisis, France </p>
                   </Row>
                   <Row style={{ marginTop:10, marginLeft:4 }}>
                     <FontAwesomeIcon icon={faEnvelope} size="2x" style={{marginRight:'6%'}} />
