@@ -126,7 +126,7 @@ export default function Section1() {
     }
     
     @media screen and (max-width: 575px) {
-      font-size:15px;
+      font-size:14px;
       padding-top:20%;
       margin-left:2%;
       width:auto;
@@ -259,14 +259,14 @@ const Trait2 = styled.div`
             <div  style={{color:'#FFF700'}}>)</div> <div  style={{color:'#FFF700'}}>&nbsp;{accolade1}</div>
         </div>
 
-          <div style={{backgroundColor:'#8C8C8C',width:0.5,  marginTop:-10,height:165, position:'absolute', marginLeft:2}}></div>
+          <div style={{backgroundColor:'#8C8C8C',width:0.5,  marginTop:-10,height:160, position:'absolute', marginLeft:2}}></div>
 
           <div style={{paddingLeft:20, color:'#90dffa'}}>
 
             <div style={{display:'flex', flexDirection:'row', marginTop:5}}><p style={{color:'#1674C4'}}>var</p> &nbsp;<p>présentation&nbsp;</p>          
               <p style={{color:'white'}}> =</p> <p style={{color:'#db6dd3'}}>&nbsp;{accolade1}</p >
             </div>            
-            <div style={{backgroundColor:'#8C8C8C',width:0.5, height:90, position:'absolute', marginTop:-20, marginLeft:2}}></div>
+            <div style={{backgroundColor:'#8C8C8C',width:0.5, height:87, position:'absolute', marginTop:-20, marginLeft:2}}></div>
 
               <div style={{display:'flex', flexDirection:'row', marginTop:5,paddingLeft:20}}> 
                 <div>Prénom:</div>
