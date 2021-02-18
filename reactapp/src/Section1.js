@@ -126,7 +126,7 @@ export default function Section1() {
     }
     
     @media screen and (max-width: 575px) {
-      font-size:16px;
+      font-size:15px;
       padding-top:20%;
       margin-left:2%;
       width:auto;
@@ -213,7 +213,7 @@ const Trait2 = styled.div`
 
           <div style={{display:'flex', flexDirection:'row', color:'#1674C4'}}>
             function &nbsp; <p style={{color:'#FFFCB9'}}>Développeur web&nbsp;</p> 
-            <p style={{color:'#FFF700'}}>(</p> <p style={{color:'#90dffa'}}>&nbsp;React&nbsp;</p> 
+            <p style={{color:'#FFF700'}}>(</p> <p style={{color:'#90dffa'}}>&nbsp;React,&nbsp;Node.JS</p> 
             <p  style={{color:'#FFF700'}}>)</p> <p  style={{color:'#FFF700'}}>&nbsp;{accolade1}</p>
           </div>
 
@@ -255,18 +255,18 @@ const Trait2 = styled.div`
 
         <div style={{display:'flex', flexDirection:'row', color:'#1674C4', marginBottom:6}}>
             function &nbsp; <div style={{color:'#FFFCB9'}}>Développeur web&nbsp;</div> 
-            <div style={{color:'#FFF700'}}>(</div> <div style={{color:'#90dffa'}}>&nbsp;React&nbsp;</div> 
+            <div style={{color:'#FFF700'}}>(</div> <div style={{color:'#90dffa'}}>&nbsp;React,&nbsp;Node.JS</div> 
             <div  style={{color:'#FFF700'}}>)</div> <div  style={{color:'#FFF700'}}>&nbsp;{accolade1}</div>
         </div>
 
-          <div style={{backgroundColor:'#8C8C8C',width:0.5,  marginTop:-10,height:205, position:'absolute', marginLeft:2}}></div>
+          <div style={{backgroundColor:'#8C8C8C',width:0.5,  marginTop:-10,height:165, position:'absolute', marginLeft:2}}></div>
 
           <div style={{paddingLeft:20, color:'#90dffa'}}>
 
             <div style={{display:'flex', flexDirection:'row', marginTop:5}}><p style={{color:'#1674C4'}}>var</p> &nbsp;<p>présentation&nbsp;</p>          
               <p style={{color:'white'}}> =</p> <p style={{color:'#db6dd3'}}>&nbsp;{accolade1}</p >
             </div>            
-            <div style={{backgroundColor:'#8C8C8C',width:0.5, height:110, position:'absolute', marginTop:-20, marginLeft:2}}></div>
+            <div style={{backgroundColor:'#8C8C8C',width:0.5, height:90, position:'absolute', marginTop:-20, marginLeft:2}}></div>
 
               <div style={{display:'flex', flexDirection:'row', marginTop:5,paddingLeft:20}}> 
                 <div>Prénom:</div>
@@ -300,7 +300,7 @@ const Trait2 = styled.div`
           <Function className='d-none d-sm-block d-md-none' >
             <div style={{display:'flex', flexDirection:'row', color:'#1674C4', marginBottom:2}}>
               function &nbsp; <div style={{color:'#FFFCB9'}}>Développeur web&nbsp;</div> 
-              <div style={{color:'#FFF700'}}>(</div> <div style={{color:'#90dffa'}}>&nbsp;React&nbsp;</div> 
+              <div style={{color:'#FFF700'}}>(</div> <div style={{color:'#90dffa'}}>&nbsp;React,&nbsp;Node.JS</div> 
               <div  style={{color:'#FFF700'}}>)</div> <div  style={{color:'#FFF700'}}>&nbsp;{accolade1}</div>
             </div>
 
@@ -340,7 +340,7 @@ const Trait2 = styled.div`
           <Function className='d-none d-md-block d-xl-none'>
             <div style={{display:'flex', flexDirection:'row', color:'#1674C4', marginBottom:2}}>
               function &nbsp; <div style={{color:'#FFFCB9'}}>Développeur web&nbsp;</div> 
-              <div style={{color:'#FFF700'}}>(</div> <div style={{color:'#90dffa'}}>&nbsp;React&nbsp;</div> 
+              <div style={{color:'#FFF700'}}>(</div> <div style={{color:'#90dffa'}}>&nbsp;React,&nbsp;Node.JS</div> 
               <div  style={{color:'#FFF700'}}>)</div> <div  style={{color:'#FFF700'}}>&nbsp;{accolade1}</div>
             </div>
 
