@@ -12,7 +12,7 @@ import styled from "styled-components";
 import GitHub from './github.png'
 
 const Hero = styled.div`
-    font-family: 'poppins';
+  font-family:'PoppinsLighter';
     padding:0;
     margin:0;
     width: 100%;
@@ -68,7 +68,7 @@ const Hero = styled.div`
     margin-top:9.5%;
     color:white;
     font-size:11px;
-    font-weight:lighter;
+    font-family:'PoppinsLighter';
     @media screen and (max-width: 1415px) {
       margin-top:8.2%;
     }

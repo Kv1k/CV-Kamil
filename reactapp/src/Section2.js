@@ -77,14 +77,14 @@ export default function Section2() {
             ********************************************************************************* */}
         
         <div style={{padding:0, margin:0,width:'100%', height:'100%', display:'flex', justifyContent:'center', alignItems:'center'}}className='d-none d-xl-block'> 
-            <div style={{ color:'white',fontSize:30,fontWeight:'lighter', marginLeft:'80%', paddingTop:60, marginBottom:30}}>#Compétences</div>                  
+            <div style={{ color:'white',fontSize:30,fontFamily:'PoppinsLighter', marginLeft:'80%', paddingTop:60, marginBottom:30}}>#Compétences</div>                  
           
             <Row  style={{ color:'white', position:'absolute', display:'flex',justifyContent:'center', flexDirection:'row', width:'100%', height:'auto'}}>
                 <Col xs={6} >
                     <img src={Guillemet} style={{height:80}}/>
                     <p  style={{marginLeft:30, fontStyle:'italic',fontSize:30,  }}>Apprendre, c'est se retrouver.</p>
                     <p style={{backgroundColor:'#A02C2C', width:175, textAlign:'center', marginTop:10}}>Malcolm De Chazal</p>
-                    <p style={{fontWeight:'lighter', fontSize:15,  color:'#909090',marginTop:30}}>
+                    <p style={{fontFamily:'PoppinsLighter', fontSize:15,  color:'#909090',marginTop:30}}>
                         Ma curiosité et mon attrait pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
                         Une profession épanouissante est, à mon sens, une activité mêlant créativité et apprentissage constant.<br/>
                     </p>
@@ -111,7 +111,7 @@ export default function Section2() {
             <img src={Guillemet} style={{marginLeft:30,height:30}}/>
             <p  style={{marginLeft:30, fontStyle:'italic',fontSize:18,  }}>Apprendre, c'est se retrouver.</p>
             <p style={{marginLeft:150,backgroundColor:'#A02C2C', width:150, textAlign:'center', marginTop:-10, fontSize:13,marginBottom:22}}>Malcolm De Chazal</p>
-            <Col xs={12} style={{ color:'white',fontSize:12,fontWeight:'lighter',color:'#909090',marginBottom:50 }}>  
+            <Col xs={12} style={{ color:'white',fontSize:12,fontFamily:'PoppinsLighter',color:'#909090',marginBottom:50 }}>  
                 
                         Ma curiosité et mon attrait pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
                         Une profession épanouissante est, à mon sens, une activité mêlant créativité et apprentissage constant.<br/>
@@ -132,7 +132,7 @@ export default function Section2() {
             ********************************************************************************* */}
         
         <div style={{padding:0, margin:0, width:'100%', height:'100%'}} className='d-none d-sm-block d-md-none'> 
-        <p style={{ color:'white',fontSize:20,fontWeight:'lighter',paddingTop:20, marginLeft:'72%'}}>#Compétences</p>                  
+        <p style={{ color:'white',fontSize:20,fontFamily:'PoppinsLighter',paddingTop:20, marginLeft:'72%'}}>#Compétences</p>                  
 
           <Row style={{ width:'100%',}}>
                 <Col  style={{ color:'white',marginLeft:30, display:'flex', flexDirection:'row',width:'100%', marginTop:'-5%' }}>
@@ -142,7 +142,7 @@ export default function Section2() {
                     <img src={Guillemet} style={{marginLeft:10,height:35, width:40}}/>
                         <p  style={{marginLeft:10, fontStyle:'italic',fontSize:18,  }}>Apprendre, c'est se retrouver.</p>
                         <p style={{marginLeft:120,backgroundColor:'#A02C2C', width:150, textAlign:'center', marginTop:-10, fontSize:13,marginBottom:22}}>Malcolm De Chazal</p>
-                        <p style={{fontWeight:'lighter',marginTop:'3%', fontSize:12, width:300, color:'#909090',textAlign:'center'}}>
+                        <p style={{fontFamily:'PoppinsLighter',marginTop:'3%', fontSize:12, width:300, color:'#909090',textAlign:'center'}}>
                             Ma curiosité et mon attrait pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
                             Une profession épanouissante est, à mon sens, une activité mêlant créativité et apprentissage constant.<br/>
                         </p>
@@ -163,8 +163,8 @@ export default function Section2() {
             ********************************************************************************* */}
         
         <div style={{padding:0, margin:0,  }}className='d-none d-md-block d-xl-none'> 
-            <div  className='d-none d-md-block d-lg-none' style={{ color:'white',fontSize:30,fontWeight:'lighter', marginLeft:'67%', paddingTop:'11%',marginBottom:'10%',}}>#Compétences</div>                  
-            <div  className='d-none d-lg-block d-xl-none' style={{ color:'white',fontSize:30,fontWeight:'lighter', marginLeft:'75%', paddingTop:'7%'}}>#Compétences</div>                  
+            <div  className='d-none d-md-block d-lg-none' style={{ color:'white',fontSize:30,fontFamily:'PoppinsLighter', marginLeft:'67%', paddingTop:'11%',marginBottom:'10%',}}>#Compétences</div>                  
+            <div  className='d-none d-lg-block d-xl-none' style={{ color:'white',fontSize:30,fontFamily:'PoppinsLighter', marginLeft:'75%', paddingTop:'7%'}}>#Compétences</div>                  
 
           <Row style={{ width:'100%',  paddingLeft:50}}>
 
@@ -174,7 +174,7 @@ export default function Section2() {
                         <img src={Guillemet} style={{marginLeft:20,height:35, width:40}}/>
                         <p  style={{marginLeft:30, fontStyle:'italic',fontSize:18,   width:280}}>Apprendre, c'est se retrouver.</p>
                         <p style={{marginLeft:150,backgroundColor:'#A02C2C', width:150, textAlign:'center', marginTop:-10, fontSize:13,marginBottom:22}}>Malcolm De Chazal</p>
-                        <p style={{fontWeight:'lighter',marginTop:27, fontSize:12, width:300, color:'#909090',marginTop:30, textAlign:'center'}}>
+                        <p style={{fontFamily:'PoppinsLighter',marginTop:27, fontSize:12, width:300, color:'#909090',marginTop:30, textAlign:'center'}}>
                             Ma curiosité et mon attrait pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
                             Une profession épanouissante est, à mon sens, une activité mêlant créativité et apprentissage constant.<br/>
                         </p>

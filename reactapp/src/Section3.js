@@ -110,7 +110,7 @@ export default function Section3() {
             <Card style={{width:270, height:260, borderStyle:"solid", borderColor:'white', backgroundColor:'transparent',
               borderRadius:0, display:'flex', alignItems:'center',borderWidth:1.4,color:'white', padding:15}}>
               <CardTitle tag="h5">{site.nom}:</CardTitle>
-              <CardText style={{fontWeight:'lighter',  color:'white', marginTop:5}}>  
+              <CardText style={{fontFamily:'PoppinsLighter',  color:'white', marginTop:5}}>  
               {site.description}
               <div style={{color:'#A02C2C', fontSize:15, marginTop:5, marginBottom:4}}>{site.tech} </div>
                                                 
@@ -127,7 +127,7 @@ export default function Section3() {
             <Card style={{width:180, height:200, borderStyle:"solid", borderColor:'white', backgroundColor:'transparent',
               borderRadius:0, display:'flex', alignItems:'center',borderWidth:1.4,color:'white', padding:15}}>
               <CardTitle tag="h5">{site.nom}:</CardTitle>
-              <CardText style={{fontWeight:'lighter',   color:'white', marginTop:5}}>  
+              <CardText style={{fontFamily:'PoppinsLighter',   color:'white', marginTop:5}}>  
               {site.description}
               <div style={{color:'#A02C2C',  marginTop:5, marginBottom:4}}>{site.tech} </div>
                                                 
@@ -144,7 +144,7 @@ export default function Section3() {
             <Card style={{width:'100%', height:250, borderStyle:"solid", borderColor:'white', backgroundColor:'transparent',
               borderRadius:0, display:'flex', alignItems:'center',borderWidth:1.4,color:'white', padding:15}}>
               <CardTitle tag="h5">{site.nom}:</CardTitle>
-              <CardText style={{fontWeight:'lighter', fontSize:15,  color:'white', marginTop:7}}>  
+              <CardText style={{fontFamily:'PoppinsLighter', fontSize:15,  color:'white', marginTop:7}}>  
               {site.description}
               <div style={{color:'#A02C2C',fontSize:16,   marginTop:6, marginBottom:4}}>{site.tech} </div>
                                                 
@@ -160,7 +160,7 @@ export default function Section3() {
             <Card style={{width:400, height:240, borderStyle:"solid", borderColor:'white', backgroundColor:'transparent',
               borderRadius:0, display:'flex', alignItems:'center',borderWidth:1.4,color:'white', padding:15}}>
               <CardTitle tag="h5">{site.nom}:</CardTitle>
-              <CardText style={{fontWeight:'lighter', fontSize:15,  color:'white', marginTop:7}}>  
+              <CardText style={{fontFamily:'PoppinsLighter', fontSize:15,  color:'white', marginTop:7}}>  
               {site.description}
               <div style={{color:'#A02C2C',fontSize:16,   marginTop:6, marginBottom:4}}>{site.tech} </div>
                                                 
@@ -194,7 +194,7 @@ export default function Section3() {
           borderRadius:0,display:'flex', alignItems:'center',color:'white', padding:0}}>
             <img style={{width:'100%', }} src={site.src}/>
             <CardTitle style={{marginTop:10}}tag="h5">{site.nom}:</CardTitle>
-            <CardText style={{fontWeight:'lighter',  color:'white',  paddingLeft:15,paddingRight:15}}>  
+            <CardText style={{fontFamily:'PoppinsLighter',  color:'white',  paddingLeft:15,paddingRight:15}}>  
             {site.description}
              
             </CardText>
@@ -210,7 +210,7 @@ export default function Section3() {
           borderRadius:0,display:'flex', alignItems:'center',color:'white'}}>
             <img style={{width:'100%', }} src={site.src}/>
             <CardTitle style={{marginTop:10}}tag="h5">{site.nom}:</CardTitle>
-            <CardText style={{fontWeight:'lighter', color:'white',  paddingLeft:15,paddingRight:15}}>  
+            <CardText style={{fontFamily:'PoppinsLighter', color:'white',  paddingLeft:15,paddingRight:15}}>  
             {site.description}
               <ReactTooltip type="error" />
             </CardText>
@@ -223,7 +223,7 @@ export default function Section3() {
           borderRadius:0,display:'flex', alignItems:'center',color:'white'}}>
             <img style={{width:'100%', }} src={site.src}/>
             <CardTitle style={{marginTop:10}}tag="h5">{site.nom}:</CardTitle>
-            <CardText style={{fontWeight:'lighter', color:'white',  paddingLeft:15,paddingRight:15}}>  
+            <CardText style={{fontFamily:'PoppinsLighter', color:'white',  paddingLeft:15,paddingRight:15}}>  
             {site.description}
               <ReactTooltip type="error" />
             </CardText>
@@ -239,7 +239,7 @@ export default function Section3() {
 
   
   return (
-    <div style={{fontFamily:'poppins'}} id={'section3'}>
+    <div style={{fontFamily:'Poppins'}} id={'section3'}>
 
         {/* ****************************** Contenue ordinateur ****************************** */}
       <div className='d-none d-xl-block' style={{height:1300, backgroundImage: `url(${Background})`,backgroundPosition: 'center',
@@ -248,7 +248,7 @@ export default function Section3() {
        
         <div style={{height:1300, backgroundColor:'rgb(0,0,0,0.5)'
         ,display:'flex', flexDirection:'column', alignItems:'center'}} > 
-          <div style={{ color:'white',fontSize:30,fontWeight:'lighter', marginLeft:'70%', paddingTop:60}}>#Projet professionnel</div>                  
+          <div style={{ color:'white',fontSize:30,fontFamily:'PoppinsLighter', marginLeft:'70%', paddingTop:60}}>#Projet professionnel</div>                  
           <Row   style={{ width:'100%',
             display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', marginTop:60}}> 
           
@@ -256,7 +256,7 @@ export default function Section3() {
 
           </Row>
           
-          <div style={{ color:'white',fontSize:30,fontWeight:'lighter', marginLeft:'70%', paddingTop:30}}>#Projet académique</div>                  
+          <div style={{ color:'white',fontSize:30,fontFamily:'PoppinsLighter', marginLeft:'70%', paddingTop:30}}>#Projet académique</div>                  
           <Row   style={{ width:'100%',
             display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', marginTop:60}}> 
          
@@ -274,16 +274,16 @@ export default function Section3() {
        
         <div style={{height:1650, backgroundColor:'rgb(0,0,0,0.5)'
         ,display:'flex', flexDirection:'column', alignItems:'center', }} > 
-          <div className='d-block d-sm-none' style={{ color:'white',fontSize:20,fontWeight:'lighter', marginLeft:150, paddingTop:30, paddingBottom:20}}>#Projet professionnel</div>                  
-          <div className='d-none d-sm-block' style={{ color:'white',fontSize:20,fontWeight:'lighter', marginLeft:'70%', paddingTop:30, paddingBottom:20}}>#Projet professionnel</div>                  
+          <div className='d-block d-sm-none' style={{ color:'white',fontSize:20,fontFamily:'PoppinsLighter', marginLeft:150, paddingTop:30, paddingBottom:20}}>#Projet professionnel</div>                  
+          <div className='d-none d-sm-block' style={{ color:'white',fontSize:20,fontFamily:'PoppinsLighter', marginLeft:'70%', paddingTop:30, paddingBottom:20}}>#Projet professionnel</div>                  
 
             <Row style={{fontSize:12, display:'flex', width:'100%'
             , alignItems:'center', justifyContent:'center'}}>
                {sitesPro}    
             </Row>
 
-          <div className='d-block d-sm-none' style={{ color:'white',fontSize:20,fontWeight:'lighter', marginLeft:150,paddingBottom:20 }}>#Projet académique</div>                  
-          <div className='d-none d-sm-block' style={{ color:'white',fontSize:20,fontWeight:'lighter', marginLeft:'70%', paddingTop:30, paddingBottom:20}}>#Projet académique</div>                  
+          <div className='d-block d-sm-none' style={{ color:'white',fontSize:20,fontFamily:'PoppinsLighter', marginLeft:150,paddingBottom:20 }}>#Projet académique</div>                  
+          <div className='d-none d-sm-block' style={{ color:'white',fontSize:20,fontFamily:'PoppinsLighter', marginLeft:'70%', paddingTop:30, paddingBottom:20}}>#Projet académique</div>                  
 
             <Row style={{fontSize:10, display:'flex', width:'100%'
               , alignItems:'center', justifyContent:'center'}}>

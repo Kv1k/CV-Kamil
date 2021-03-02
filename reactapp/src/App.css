@@ -1,4 +1,21 @@
 
+/* poppins-regular - latin */
+
+
+
+@font-face {
+	font-family: "Poppins";
+	src: url('./Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: "PoppinsLighter";
+  font-weight: lighter;
+	src: url('./Poppins/Poppins-Light.ttf');
+}
+
+.body{
+  font-family: 'Poppins';
+}
 
 .nav {
  

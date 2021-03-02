@@ -11,7 +11,9 @@ export default function Section1() {
   var accolade1 = " {";
   var accolade2 = "} ";
   const Hero = styled.div`
-    font-family: 'poppins';
+  
+  font-family: "Poppins";
+  
     padding:0;
     margin:0;
     width: 100%;

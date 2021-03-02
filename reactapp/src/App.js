@@ -14,7 +14,7 @@ class App extends Component {
     
     
     return (
-      <div style={{backgroundColor:'#232323'}} >
+      <div style={{backgroundColor:'#232323', fontFamily:'poppins',fontWeight:'normal'}} >
         {/* Site internet codé par Kamil NACHAT */}
         <Navbar/>
         <Section1 />
