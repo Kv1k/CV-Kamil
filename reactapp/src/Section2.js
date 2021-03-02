@@ -87,7 +87,6 @@ export default function Section2() {
                     <p style={{fontWeight:'lighter', fontSize:15,  color:'#909090',marginTop:30}}>
                         Ma curiosité et mon attrait pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
                         Une profession épanouissante est, à mon sens, une activité mêlant créativité et apprentissage constant.<br/>
-                        Ainsi, je cherche un stage en tant que développeur afin de <br/>valider mon diplôme.
                     </p>
                 </Col>
                
@@ -116,7 +115,6 @@ export default function Section2() {
                 
                         Ma curiosité et mon attrait pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
                         Une profession épanouissante est, à mon sens, une activité mêlant créativité et apprentissage constant.<br/>
-                        Ainsi, je cherche un stage en tant que développeur afin de valider mon diplôme.
             </Col>                 
             <Col xs={12} style={{display:'flex',justifyContent:'center',height:'100%', marginTop:'4%', width:'100%',paddingLeft:'7%'}}>
                 
@@ -147,7 +145,6 @@ export default function Section2() {
                         <p style={{fontWeight:'lighter',marginTop:'3%', fontSize:12, width:300, color:'#909090',textAlign:'center'}}>
                             Ma curiosité et mon attrait pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
                             Une profession épanouissante est, à mon sens, une activité mêlant créativité et apprentissage constant.<br/>
-                            Ainsi, je cherche un stage en tant que développeur afin de valider mon diplôme.
                         </p>
                     </div>    
                 </Col> 
@@ -180,7 +177,6 @@ export default function Section2() {
                         <p style={{fontWeight:'lighter',marginTop:27, fontSize:12, width:300, color:'#909090',marginTop:30, textAlign:'center'}}>
                             Ma curiosité et mon attrait pour la connaissance me poussent à constamment apprendre de nouvelles compétences dans de nombreux domaines.<br/>
                             Une profession épanouissante est, à mon sens, une activité mêlant créativité et apprentissage constant.<br/>
-                            Ainsi, je cherche un stage en tant que développeur afin de valider mon diplôme.
                         </p>
                     </div>    
                 </Col> 
