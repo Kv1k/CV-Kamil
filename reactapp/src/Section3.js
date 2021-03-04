@@ -24,7 +24,7 @@ var link="https://github.com/kv1k"
 export default function Section3() {
 
  
-  var allDataAcademique= [
+  var allDataPerso= [
     {
       nom: "Morning News",
       description: "Application web développée en React JS permettant de consulter et de mettre en favoris des news.",
@@ -99,7 +99,7 @@ export default function Section3() {
 
   ]
 
-  var sitesAcademique= allDataAcademique.map((site,i)=>{
+  var sitesPerso= allDataPerso.map((site,i)=>{
     return (
     
      
@@ -256,11 +256,11 @@ export default function Section3() {
 
           </Row>
           
-          <div style={{ color:'white',fontSize:30,fontFamily:'PoppinsLighter', marginLeft:'70%', paddingTop:30}}>#Projet académique</div>                  
+          <div style={{ color:'white',fontSize:30,fontFamily:'PoppinsLighter', marginLeft:'70%', paddingTop:30}}>#Projet personnel</div>                  
           <Row   style={{ width:'100%',
             display:'flex', flexDirection:'row', alignItems:'center', justifyContent:'center', marginTop:60}}> 
          
-            {sitesAcademique}    
+            {sitesPerso}    
 
           </Row>
         </div>
@@ -282,12 +282,12 @@ export default function Section3() {
                {sitesPro}    
             </Row>
 
-          <div className='d-block d-sm-none' style={{ color:'white',fontSize:20,fontFamily:'PoppinsLighter', marginLeft:150,paddingBottom:20 }}>#Projet académique</div>                  
-          <div className='d-none d-sm-block' style={{ color:'white',fontSize:20,fontFamily:'PoppinsLighter', marginLeft:'70%', paddingTop:30, paddingBottom:20}}>#Projet académique</div>                  
+          <div className='d-block d-sm-none' style={{ color:'white',fontSize:20,fontFamily:'PoppinsLighter', marginLeft:150,paddingBottom:20 }}>#Projet personnel</div>                  
+          <div className='d-none d-sm-block' style={{ color:'white',fontSize:20,fontFamily:'PoppinsLighter', marginLeft:'70%', paddingTop:30, paddingBottom:20}}>#Projet personnel</div>                  
 
             <Row style={{fontSize:10, display:'flex', width:'100%'
               , alignItems:'center', justifyContent:'center'}}>
-              {sitesAcademique}    
+              {sitesPerso}    
             </Row>   
         </div>
       </div>
