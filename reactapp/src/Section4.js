@@ -57,27 +57,23 @@ export default function Section4() {
   @media screen and (max-width: 1199px) {
     margin-bottom: 7px;
     width: 100%;
-    height: 697px;
+    height: 770px;
     background-image: url(${Background}); no-repeat;
   }
   @media screen and (max-width: 991px) {
     width: 100%;
     margin-bottom: 10px;
-    height: 1000px;
+    height: 1050px;
     background-image: url(${BackgroundTabletteV}); no-repeat;
   }
   @media screen and (max-width: 767px)  {
     margin-bottom: 5px;
-    @media screen and (min-height: 351px)  {
+   
+    
       width: 100%;
-      height: 389px;
+      height: 400px;
       background-image: url(${BackgroundHorizontale}); no-repeat;
-    }
-    @media screen and (max-height: 351px)  {
-      width: 100%;
-      height: 357px;
-      background-image: url(${BackgroundHorizontale}); no-repeat;
-    }
+    
    
   }
 
@@ -85,13 +81,13 @@ export default function Section4() {
     
     @media screen and (max-height: 700px) {
       width: 100%;
-      height: 685px;
+      height: 800px;
       margin-bottom: 5px;
       background-image: url(${BackgroundVerticale}); no-repeat;
     }
     @media screen and (min-height: 701px) {
       width: 100%;
-      height: 836px;
+      height: 846px;
       margin-bottom: 8px;
       background-image: url(${BackgroundVerticale}); no-repeat;
     }
@@ -207,7 +203,7 @@ export default function Section4() {
                 
                               
               </Card>
-              <Card className="d-none d-sm-block" style={{ width:'100%',height:300,  borderStyle:"none", backgroundColor:'rgb(0,0,0,0.6)',
+              <Card className="d-none d-sm-block" style={{ width:'100%',height:350,  borderStyle:"none", backgroundColor:'rgb(0,0,0,0.6)',
               borderRadius:0,display:'flex', alignItems:'center',color:'white', padding:0 }}>
               <CardTitle style={{marginTop:10, backgroundColor:'rgb(160,44,44,0.8)',
                   height:37, width:'100%', margin:0,display:'flex',
@@ -215,8 +211,8 @@ export default function Section4() {
                   Diplômes 
                 </CardTitle>
 
-                <div style={{ height:'77%', width:'100%',marginTop:20 }}>
-                <div className="timeline-wrapper" style={{ height:'90%', width:'auto',
+                <div style={{ height:'77%', width:'100%',marginTop:40 }}>
+                <div className="timeline-wrapper" style={{ height:'70%', width:'auto',
                   display:'flex', flexDirection:'column', justifyContent:'center', }}>
                     <div className="node" style={{width:'95%',  marginTop:12,   marginBottom:-30}}>
                       <h3 style={{fontSize:12, paddingTop:2}}>Titre professionnel Développeur web et web mobile </h3>
@@ -256,7 +252,7 @@ export default function Section4() {
 
                  {/****************** horizontale ******************/}
 
-              <Card className="d-none d-lg-block" style={{ width:'100%',height:580, borderStyle:"none", backgroundColor:'rgb(0,0,0,0.6)',
+              <Card className="d-none d-lg-block" style={{ width:'100%',height:640, borderStyle:"none", backgroundColor:'rgb(0,0,0,0.6)',
               borderRadius:0,display:'flex', alignItems:'center',color:'white', padding:0,marginTop:30}}>
                 <CardTitle 
                   style={{marginTop:10, backgroundColor:'rgb(160,44,44,0.7)',
@@ -264,8 +260,8 @@ export default function Section4() {
                   Diplômes 
                 </CardTitle>
 
-                <div style={{ height:'60%', width:'100%',marginTop:60 }}>
-                  <div className="timeline-wrapper" style={{ height:'100%', width:'auto',
+                <div style={{ height:'60%', width:'100%',marginTop:90 }}>
+                  <div className="timeline-wrapper" style={{ height:'90%', width:'auto',
                   display:'flex', flexDirection:'column', justifyContent:'center'}}>
                   
                     <div className="node" style={{width:'95%',  }}>
@@ -299,7 +295,6 @@ export default function Section4() {
                               
               </Card>
 
-                      {/****************** verticale ******************/}
              
             </div>
           </Col>      
@@ -327,25 +322,26 @@ export default function Section4() {
                   <div className="timeline-wrapper" style={{ height:'100%', width:'auto',
                   display:'flex', flexDirection:'column', justifyContent:'center'}}>
                     <div className="node" style={{width:'95%', marginTop:5}}>
-                      <h3 style={{fontSize:15,}}>Développeur junior</h3>
-                      <div style={{fontSize:12, fontFamily:'PoppinsLighter',  marginTop:8}}>Ambroisy (Lyon, France) |  Novembre 2020 </div>
-                      <div style={{fontSize:11.7,fontFamily:'PoppinsLighter', marginTop:5, color:'#909090'}}>Développement de la partie front end 
+                      <h3 style={{fontSize:15,}}>Développeur Full Stack (freelance)</h3>
+                      <div style={{fontSize:12, fontFamily:'PoppinsLighter',  marginTop:8}}>H2N Automobile (Le Crès, France) |  Janvier 2021 </div>
+                      <div style={{fontSize:11.7,fontFamily:'PoppinsLighter', marginTop:5, color:'#909090'}}>
+                        Ouverture au digitale pour l'entreprise H2N Automobile.<br/>
+                        J'ai eu le plaisir de créer des maquettes, le site internet, et le logo, de cette dernière et ainsi améliorer ses résultats.<br/>
+                        Stacks utilisés:<br/>
+                        Back-end: Node.js/ Express / Bases de données NoSQL (MongoDB)<br/>
+                        Front-end: React / Redux / CSS</div>
+
+                    </div>
+                    <div className="node" style={{width:'95%'}}>
+                      <h3 style={{fontSize:15, paddingTop:5}}>Développeur Front-end</h3>
+                      <div style={{fontSize:11, fontFamily:'PoppinsLighter',  marginTop:8}}>Ambroisy (Lyon, France) |  Novembre 2020 </div>
+                      <div style={{fontSize:10.7,fontFamily:'PoppinsLighter', marginTop:5, color:'#909090'}}>Développement de la partie front end 
                       en autonomie pour la version démo de l'application mobile Ambroisy 
                       permettant  aux personnes atteintes d'allergies alimentaire de trouver facilement des
                        produits autour d'eux. Le travail a été réalisé en équipe de 3 personnes.</div>
 
                     </div>
                     
-                    <div className="node" style={{width:'95%'}}>
-                      <h3 style={{fontSize:15, paddingTop:5}}>Vendeur prêt à porter: </h3>
-                      <div style={{fontSize:13, fontFamily:'PoppinsLighter',  marginTop:8}}>Bershka Polygone, (Montpellier, France) | Décembre – Février  2019/2020 </div>
-                      <div style={{fontSize:11.7,fontFamily:'PoppinsLighter', marginTop:5, color:'#909090'}}>
-                        - Accueil et conseil auprès des clients <br/>
-                        - Gestion des stocks  <br/>
-                        – Mise en rayon <br/>
-                      </div>
-
-                    </div>
                     <div className="node" style={{width:'95%'}}>
                       <h3 style={{fontSize:15, paddingTop:5}}>Promoteur événementiel</h3>
                       <div style={{fontSize:12, fontFamily:'PoppinsLighter',  marginTop:8}}>Barca4Fiesta (Barcelone, Espagne) | Juin 2019 - Septembre 2019 </div>
@@ -365,19 +361,36 @@ export default function Section4() {
             {/* //////////// CONTENUE MOBILE ////////////  */}     
             <div className="d-block d-md-none" >         
 
-              <Card  className="d-block d-sm-none" style={{ width:300,height:290,  borderStyle:"none", backgroundColor:'rgb(0,0,0,0.6)',
-              borderRadius:0,display:'flex', alignItems:'center',color:'white', padding:0 , marginTop:-40}}>
+              <Card  className="d-block d-sm-none" style={{ width:300,height:380,  borderStyle:"none", backgroundColor:'rgb(0,0,0,0.6)',
+              borderRadius:0,display:'flex', alignItems:'center',color:'white', padding:0 , marginTop:0}}>
                <CardTitle style={{marginTop:10, backgroundColor:'rgb(160,44,44,0.8)',
                   height:37, width:'100%', margin:0,display:'flex',
                    justifyContent:'center', alignItems:'center', fontSize:16}}tag="h5"> 
                   Experiences 
                 </CardTitle>
 
-                <div style={{ height:'67%', width:'100%',marginTop:20 }}>
-                <div className="timeline-wrapper" style={{ height:'100%', width:'auto',
+                <div style={{ height:'67%', width:'100%',marginTop:30 }}>
+                <div className="timeline-wrapper" style={{ height:'110%', width:'auto',
                   display:'flex', flexDirection:'column', justifyContent:'center', }}>
-                    <div className="node" style={{width:'95%',  marginBottom:10}}>
-                      <h3 style={{fontSize:13}}>Développeur junior</h3>
+                     <div className="node" style={{width:'95%'}}>
+                      <h3 style={{fontSize:13}}>Développeur Full Stack (Freelance)</h3>
+                      <div style={{fontSize:10.5, fontFamily:'PoppinsLighter',  marginTop:2}}>H2N Automobile (Le Crès, France) |  Janvier 2021 </div>
+                      <div style={{fontSize:9.5, fontFamily:'PoppinsLighter', marginTop:1, color:'#909090'}}> <button  
+                        onClick={()=>openModal(
+                          <p style={{fontSize:18, textAlign:'center', color:'#a02c2c'}}>H2N Automobile</p>,
+                          <p style={{fontSize:14, fontFamily:'PoppinsLighter', marginTop:5, color:'#909090', width:300}}>
+                             Ouverture au digitale pour l'entreprise H2N Automobile.<br/>
+                        J'ai eu le plaisir de créer des maquettes, le site internet, et le logo, de cette dernière et ainsi améliorer ses résultats.<br/>
+                        Stacks utilisés:<br/>
+                        Back-end: Node.js/ Express / Bases de données NoSQL (MongoDB)<br/>
+                        Front-end: React / Redux / CSS
+                          </p>
+                        )} style={{backgroundColor:'#a02c2c', width:'auto', height:24,
+                        border:'none', outline:'none', color:'white', borderRadius:4,marginTop:5 }}> Description </button></div>
+
+                    </div>
+                    <div className="node" style={{width:'95%'}}>
+                      <h3 style={{fontSize:13}}>Développeur Front-end</h3>
                       <div style={{fontSize:10.5, fontFamily:'PoppinsLighter',  marginTop:2}}>Ambroisy (Lyon, France) |  Novembre 2020 </div>
                       <div style={{fontSize:9.5, fontFamily:'PoppinsLighter', marginTop:1, color:'#909090'}}> <button  
                         onClick={()=>openModal(
@@ -417,7 +430,7 @@ export default function Section4() {
                 
                               
               </Card>
-              <Card  className="d-none d-sm-block" style={{ width:'100%',height:300,  borderStyle:"none", backgroundColor:'rgb(0,0,0,0.6)',
+              <Card  className="d-none d-sm-block" style={{ width:'100%',height:350,  borderStyle:"none", backgroundColor:'rgb(0,0,0,0.6)',
               borderRadius:0,display:'flex', alignItems:'center',color:'white', padding:0 }}>
                <CardTitle style={{marginTop:10, backgroundColor:'rgb(160,44,44,0.8)',
                   height:37, width:'100%', margin:0,display:'flex',
@@ -425,11 +438,28 @@ export default function Section4() {
                   Experiences 
                 </CardTitle>
 
-                <div style={{ height:'67%', width:'100%',marginTop:20 }}>
-                <div className="timeline-wrapper" style={{ height:'100%', width:'auto',
+                <div style={{ height:'67%', width:'100%',marginTop:30 }}>
+                <div className="timeline-wrapper" style={{ height:'110%', width:'auto',
                   display:'flex', flexDirection:'column', justifyContent:'center', }}>
-                    <div className="node" style={{width:'95%',  marginBottom:10}}>
-                      <h3 style={{fontSize:13}}>Développeur junior</h3>
+                    <div className="node" style={{width:'95%'}}>
+                      <h3 style={{fontSize:13}}>Développeur Full Stack</h3>
+                      <div style={{fontSize:10.5, fontFamily:'PoppinsLighter',  marginTop:2}}>H2N Automobile (Le Crès, France) |  Janvier 2021 </div>
+                      <div style={{fontSize:9.5, fontFamily:'PoppinsLighter', marginTop:1, color:'#909090'}}> <button  
+                        onClick={()=>openModal(
+                          <p style={{fontSize:18, textAlign:'center', color:'#a02c2c'}}>H2N Automobile</p>,
+                          <p style={{fontSize:14, fontFamily:'PoppinsLighter', marginTop:5, color:'#909090', width:300}}>
+                            Ouverture au digitale pour l'entreprise H2N Automobile.<br/>
+                        J'ai eu le plaisir de créer des maquettes, le site internet, et le logo, de cette dernière et ainsi améliorer ses résultats.<br/>
+                        Stacks utilisés:<br/>
+                        Back-end: Node.js/ Express / Bases de données NoSQL (MongoDB)<br/>
+                        Front-end: React / Redux / CSS
+                          </p>
+                        )} style={{backgroundColor:'#a02c2c', width:'auto', height:24,
+                        border:'none', outline:'none', color:'white', borderRadius:4,marginTop:5 }}> Description </button></div>
+
+                    </div>
+                    <div className="node" style={{width:'95%'}}>
+                      <h3 style={{fontSize:13}}>Développeur Front-end</h3>
                       <div style={{fontSize:10.5, fontFamily:'PoppinsLighter',  marginTop:2}}>Ambroisy (Lyon, France) |  Novembre 2020 </div>
                       <div style={{fontSize:9.5, fontFamily:'PoppinsLighter', marginTop:1, color:'#909090'}}> <button  
                         onClick={()=>openModal(
@@ -444,7 +474,7 @@ export default function Section4() {
                         border:'none', outline:'none', color:'white', borderRadius:4,marginTop:5 }}> Description </button></div>
 
                     </div>
-                    <div className="node" style={{width:'95%',  paddingTop:0, height:'auto'}}>
+                    <div className="node" style={{width:'95%', height:'auto'}}>
                       <h3 style={{fontSize:13}}>Promoteur événementiel</h3>
                       <div style={{fontSize:10.5, fontFamily:'PoppinsLighter', marginTop:2}}>Barca4Fiesta (Barcelone, Espagne) | Juin 2019 - Septembre 2019 </div>
                       <div style={{fontSize:9.5,fontFamily:'PoppinsLighter', marginTop:1, color:'#909090'}}>
@@ -476,7 +506,7 @@ export default function Section4() {
 
                     {/****************** horizontale ******************/}
               
-              <Card className="d-none d-lg-block" style={{ width:'100%',height:580, borderStyle:"none", backgroundColor:'rgb(0,0,0,0.6)',
+              <Card className="d-none d-lg-block" style={{ width:'100%',height:640, borderStyle:"none", backgroundColor:'rgb(0,0,0,0.6)',
               borderRadius:0,display:'flex', alignItems:'center',color:'white', padding:0, marginTop:30, }}>
                 <CardTitle 
                   style={{marginTop:10, backgroundColor:'rgb(160,44,44,0.7)',
@@ -484,11 +514,24 @@ export default function Section4() {
                   Experiences 
                 </CardTitle>
 
-                <div style={{ height:'77%', width:'100%',marginTop:20 }}>
-                  <div className="timeline-wrapper" style={{ height:'100%', width:'auto',
+                <div style={{ height:'77%', width:'100%',marginTop:40 }}>
+                  <div className="timeline-wrapper" style={{ height:'97%', width:'auto',
                   display:'flex', flexDirection:'column', justifyContent:'center'}}>
                     <div className="node" style={{width:'95%'}}>
-                      <h3 style={{fontSize:15, paddingTop:5}}>Développeur junior</h3>
+                      <h3 style={{fontSize:13, paddingTop:5}}>Développeur Full Stack</h3>
+                      <div style={{fontSize:11, fontFamily:'PoppinsLighter',  marginTop:8}}>H2N Automobile (Le Crès, France) |  Janvier 2021 </div>
+                      <div style={{fontSize:10.7,fontFamily:'PoppinsLighter', marginTop:5, color:'#909090'}}>
+                      Ouverture au digitale pour l'entreprise H2N Automobile.<br/>
+                        J'ai eu le plaisir de créer des maquettes, le site internet, et le logo, de cette dernière et ainsi améliorer ses résultats.<br/>
+                        Stacks utilisés:<br/>
+                        Back-end: Node.js/ Express / Bases de données NoSQL (MongoDB)<br/>
+                        Front-end: React / Redux / CSS
+                      </div>
+
+                    </div>
+                    
+                    <div className="node" style={{width:'95%'}}>
+                      <h3 style={{fontSize:15, paddingTop:5}}>Développeur Front-end</h3>
                       <div style={{fontSize:12, fontFamily:'PoppinsLighter',  marginTop:8}}>Ambroisy (Lyon, France) |  Novembre 2020 </div>
                       <div style={{fontSize:11.7, fontFamily:'PoppinsLighter', marginTop:5, color:'#909090'}}>Développement de la partie front end 
                       en autonomie pour la version démo de l'application mobile Ambroisy 
@@ -497,16 +540,7 @@ export default function Section4() {
 
                     </div>
                     
-                    <div className="node" style={{width:'95%'}}>
-                      <h3 style={{fontSize:15, paddingTop:5}}>Vendeur prêt à porter: </h3>
-                      <div style={{fontSize:13, fontFamily:'PoppinsLighter',  marginTop:8}}>Bershka Polygone, (Montpellier, France) | Décembre – Février  2019/2020 </div>
-                      <div style={{fontSize:11.7, fontFamily:'PoppinsLighter', marginTop:5, color:'#909090'}}>
-                        - Accueil et conseil auprès des clients <br/>
-                        - Gestion des stocks  <br/>
-                        – Mise en rayon <br/>
-                      </div>
-
-                    </div>
+                   
                     <div className="node" style={{width:'95%'}}>
                       <h3 style={{fontSize:15, paddingTop:5}}>Promoteur événementiel</h3>
                       <div style={{fontSize:12, fontFamily:'PoppinsLighter',  marginTop:8}}>Barca4Fiesta (Barcelone, Espagne) | Juin 2019 - Septembre 2019 </div>
@@ -526,7 +560,7 @@ export default function Section4() {
               <div className="d-md-block d-lg-none" style={{
                 height:'100%', width:'100%'}}>
                
-                <Card  style={{ width:'90%',height:450, borderStyle:"none", backgroundColor:'rgb(0,0,0,0.6)',
+                <Card  style={{ width:'90%',height:520, borderStyle:"none", backgroundColor:'rgb(0,0,0,0.6)',
               borderRadius:0,display:'flex', alignItems:'center',color:'white', marginLeft:'5%',marginRight:'5%', marginBottom:20 }}>
                 <CardTitle 
                   style={{marginTop:10, backgroundColor:'rgb(160,44,44,0.7)',
@@ -538,7 +572,20 @@ export default function Section4() {
                   <div className="timeline-wrapper" style={{ height:'100%', width:'auto',
                   display:'flex', flexDirection:'column', justifyContent:'center'}}>
                     <div className="node" style={{width:'95%'}}>
-                      <h3 style={{fontSize:13, paddingTop:5}}>Développeur junior</h3>
+                      <h3 style={{fontSize:13, paddingTop:5}}>Développeur Full Stack</h3>
+                      <div style={{fontSize:11, fontFamily:'PoppinsLighter',  marginTop:8}}>H2N Automobile (Le Crès, France) |  Janvier 2021 </div>
+                      <div style={{fontSize:10.7,fontFamily:'PoppinsLighter', marginTop:5, color:'#909090'}}>
+                      Ouverture au digitale pour l'entreprise H2N Automobile.<br/>
+                        J'ai eu le plaisir de créer des maquettes, le site internet, et le logo, de cette dernière et ainsi améliorer ses résultats.<br/>
+                        Stacks utilisés:<br/>
+                        Back-end: Node.js/ Express / Bases de données NoSQL (MongoDB)<br/>
+                        Front-end: React / Redux / CSS
+                      </div>
+
+                    </div>
+                    
+                    <div className="node" style={{width:'95%'}}>
+                      <h3 style={{fontSize:13, paddingTop:5}}>Développeur Front-end</h3>
                       <div style={{fontSize:11, fontFamily:'PoppinsLighter',  marginTop:8}}>Ambroisy (Lyon, France) |  Novembre 2020 </div>
                       <div style={{fontSize:10.7,fontFamily:'PoppinsLighter', marginTop:5, color:'#909090'}}>Développement de la partie front end 
                       en autonomie pour la version démo de l'application mobile Ambroisy 
@@ -547,16 +594,7 @@ export default function Section4() {
 
                     </div>
                     
-                    <div className="node" style={{width:'95%'}}>
-                      <h3 style={{fontSize:13, paddingTop:5}}>Vendeur prêt à porter: </h3>
-                      <div style={{fontSize:11, fontFamily:'PoppinsLighter',  marginTop:8}}>Bershka Polygone, (Montpellier, France) | Décembre – Février  2019/2020 </div>
-                      <div style={{fontSize:10.7,fontFamily:'PoppinsLighter',marginTop:5, color:'#909090'}}>
-                        - Accueil et conseil auprès des clients <br/>
-                        - Gestion des stocks  <br/>
-                        – Mise en rayon <br/>
-                      </div>
-
-                    </div>
+                    
                     <div className="node" style={{width:'95%'}}>
                       <h3 style={{fontSize:13, paddingTop:5}}>Promoteur événementiel</h3>
                       <div style={{fontSize:12,fontFamily:'PoppinsLighter', marginTop:2}}>Barca4Fiesta (Barcelone, Espagne) | Juin 2019 - Septembre 2019 </div>
