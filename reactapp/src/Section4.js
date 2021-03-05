@@ -126,7 +126,7 @@ export default function Section4() {
                   display:'flex', flexDirection:'column', justifyContent:'center'}}>
                     
                     <div className="node" style={{width:'95%',  }}>
-                      <h3 style={{fontSize:16, paddingTop:2}}>Titre professionnel Développeur web et web mobile </h3>
+                      <h3 style={{fontSize:16, paddingTop:2}}>Titre professionnel Développeur web et mobile </h3>
                       <div style={{fontSize:13, fontFamily:'PoppinsLighter',  marginTop:2}}> La Capsule coding bootcamp | Lyon, France   </div>
                       <div style={{fontSize:12, marginTop:1, color:'#a02c2c'}}>
                         2020 - aujourd'hui</div>
@@ -173,7 +173,7 @@ export default function Section4() {
                 <div className="timeline-wrapper" style={{ height:'90%', width:'auto',
                   display:'flex', flexDirection:'column', justifyContent:'center', }}>
                     <div className="node" style={{width:'95%',  marginTop:12,   marginBottom:-30}}>
-                      <h3 style={{fontSize:12, paddingTop:2}}>Titre professionnel Développeur web et web mobile </h3>
+                      <h3 style={{fontSize:12, paddingTop:2}}>Titre professionnel Développeur web et mobile </h3>
                       <div style={{fontSize:10, fontFamily:'PoppinsLighter',  marginTop:2}}> La Capsule coding bootcamp | Lyon, France   </div>
                       <div style={{fontSize:11, marginTop:1, color:'#a02c2c'}}>
                         2020 - aujourd'hui</div>
@@ -215,7 +215,7 @@ export default function Section4() {
                 <div className="timeline-wrapper" style={{ height:'70%', width:'auto',
                   display:'flex', flexDirection:'column', justifyContent:'center', }}>
                     <div className="node" style={{width:'95%',  marginTop:12,   marginBottom:-30}}>
-                      <h3 style={{fontSize:12, paddingTop:2}}>Titre professionnel Développeur web et web mobile </h3>
+                      <h3 style={{fontSize:12, paddingTop:2}}>Titre professionnel Développeur web et mobile </h3>
                       <div style={{fontSize:10, fontFamily:'PoppinsLighter',  marginTop:2}}> La Capsule coding bootcamp | Lyon, France   </div>
                       <div style={{fontSize:11, marginTop:1, color:'#a02c2c'}}>
                         2020 - aujourd'hui</div>
@@ -265,7 +265,7 @@ export default function Section4() {
                   display:'flex', flexDirection:'column', justifyContent:'center'}}>
                   
                     <div className="node" style={{width:'95%',  }}>
-                      <h3 style={{fontSize:16, paddingTop:2}}>Titre professionnel Développeur web et web mobile </h3>
+                      <h3 style={{fontSize:16, paddingTop:2}}>Titre professionnel Développeur web et mobile </h3>
                       <div style={{fontSize:13, fontFamily:'PoppinsLighter',  marginTop:2}}> La Capsule coding bootcamp | Lyon, France   </div>
                       <div style={{fontSize:12,  marginTop:1, color:'#a02c2c'}}>
                         2020 - aujourd'hui</div>
@@ -622,7 +622,7 @@ export default function Section4() {
                   <div className="timeline-wrapper" style={{ height:'100%', width:'auto',
                   display:'flex', flexDirection:'column', justifyContent:'center'}}>
                     <div className="node" style={{width:'95%',  }}>
-                      <h3 style={{fontSize:16, paddingTop:2}}>Titre professionnel Développeur web et web mobile </h3>
+                      <h3 style={{fontSize:16, paddingTop:2}}>Titre professionnel Développeur web et mobile </h3>
                       <div style={{fontSize:13, fontFamily:'PoppinsLighter', marginTop:2}}> La Capsule coding bootcamp | Lyon, France   </div>
                       <div style={{fontSize:12,  marginTop:1, color:'#a02c2c'}}>
                         2020</div>
