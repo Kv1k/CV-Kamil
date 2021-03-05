@@ -39,7 +39,7 @@ export default function Section3() {
     },
     {
       nom: "TickEtTac",
-      description: "Plateforme de réservation de train développée lors d'un hackaton de 2 jours. Elle est codé en EJS coté Front End et en Node.JS coté Back End.",
+      description: "Plateforme de réservation de billet train développée lors d'un hackaton de 2 jours. Elle est codé en EJS coté Front End et en Node.JS coté Back End.",
       tech:"(Node.JS, MongoDB, Bootstrap, Architecture MVC,CSS)",
       github:`${link}/ticcetac`
     },
