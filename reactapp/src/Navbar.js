@@ -136,8 +136,7 @@ export default function Navbar() {
              activeClass="active"
              to="section1"
              spy={true}
-             smooth={true}
-             
+             smooth={true}            
              duration={500}
            >
              Présentation
