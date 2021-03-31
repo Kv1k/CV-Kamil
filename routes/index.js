@@ -13,11 +13,11 @@ var transport = {
   secure: true,
   auth: {
       type: 'OAuth2',
-      user: 'kam.nach34@gmail.com',
-      clientId: '848252838249-9h40792luvc2r0a6fpqnumd5s4s8g89l.apps.googleusercontent.com' ,
-      clientSecret: 'Ypy-fdl3yocove-mEndBTD3s',
-      refreshToken:'1//04v7GSy1jPizDCgYIARAAGAQSNwF-L9IrQQZ6H0caLxu-ynSifnheyWaa1OqDq9rH8dGAJukaPoMuHYEpkGxwlVcUtt6uax0NCKA',
-      accessToken:'ya29.a0AfH6SMBBNIyUniYTshfBp9SOEvkfHevcTyAaUy62ljtGZwUXjcgwus8_rXSoUBg8oysgW2UCkEQKw64ltcDwUGjLS2Bba-Wni9lBY2m5QEnZMAA36YeSStgjor5FUNGEl7eA6502Zl6oOp_QGXeMDOgLU_8c'
+      user: '*********',
+      clientId: '*********' ,
+      clientSecret: '*********',
+      refreshToken:'*********',
+      accessToken:'*********'
   }
   
 }
