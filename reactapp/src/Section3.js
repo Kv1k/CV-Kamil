@@ -1,10 +1,9 @@
 import React from "react";
 import Background from './projetBackground.jpg'
-import BackgroundVerticale from './projetBackground-mobile.jpg'
-import BackgroundHorizontale from './projetBackground-mobileH.jpg'
-import BackgroundTabletteV from './projetBackground-tabletteV.jpg'
 import ReactTooltip from 'react-tooltip';
+import { Parallax } from "react-parallax";
 import styled from "styled-components";
+
 
 import {
   Card, CardText,
@@ -23,7 +22,20 @@ var link="https://github.com/kv1k"
 
 export default function Section3() {
 
- 
+  const Hero = styled.div`
+    font-family:"Poppins";
+    height:1300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  
+   
+    @media screen and (max-width: 1199px) {
+      height:1650px;
+    }
+
+  `
   var allDataPerso= [
     {
       nom: "Morning News",
@@ -239,14 +251,12 @@ export default function Section3() {
 
   
   return (
-    <div style={{fontFamily:'Poppins'}} id={'section3'}>
+    <Hero  id={'section3'}>
 
         {/* ****************************** Contenue ordinateur ****************************** */}
-      <div className='d-none d-xl-block' style={{height:1300, backgroundImage: `url(${Background})`,backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat'}} >
+      <Parallax className='d-none d-xl-block' style={{height:"100%"}} strength={200} bgImage={Background}>
        
-        <div style={{height:1300, backgroundColor:'rgb(0,0,0,0.5)'
+        <div style={{margin:0, padding:0
         ,display:'flex', flexDirection:'column', alignItems:'center'}} > 
           <div style={{ color:'white',fontSize:30,fontFamily:'PoppinsLighter', marginLeft:'70%', paddingTop:60}}>#Projet professionnel</div>                  
           <Row   style={{ width:'100%',
@@ -264,15 +274,13 @@ export default function Section3() {
 
           </Row>
         </div>
-      </div>
+      </Parallax>
       
         {/* ****************************** Contenue mobile & tablette ****************************** */}
 
-        <div className='d-block d-xl-none' style={{height:1650, backgroundImage: `url(${Background})`,backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat', width:'100%'}} >
-       
-        <div style={{height:1650, backgroundColor:'rgb(0,0,0,0.5)'
+
+      <Parallax className='d-block d-xl-none' style={{height:"100%"}} strength={200} bgImage={Background}>    
+        <div style={{margin:0, padding:0
         ,display:'flex', flexDirection:'column', alignItems:'center', }} > 
           <div className='d-block d-sm-none' style={{ color:'white',fontSize:20,fontFamily:'PoppinsLighter', marginLeft:150, paddingTop:30, paddingBottom:20}}>#Projet professionnel</div>                  
           <div className='d-none d-sm-block' style={{ color:'white',fontSize:20,fontFamily:'PoppinsLighter', marginLeft:'70%', paddingTop:30, paddingBottom:20}}>#Projet professionnel</div>                  
@@ -290,8 +298,9 @@ export default function Section3() {
               {sitesPerso}    
             </Row>   
         </div>
-      </div>
-    </div> 
+      </Parallax>
+
+    </Hero> 
    
   );
 }

@@ -1,7 +1,25 @@
 
 
-
-
+.ligne1{
+  z-index: 1;
+  position: relative;
+  height: 4px;
+  width: 100%;
+  top: 0;
+  left:0;
+  background: #909090;
+  border-radius: 25px;
+}
+.ligne2{
+  z-index: 2;
+  position: relative;
+  height: 4px;
+  width: 55%;
+  top: 0;
+  left:0;
+  background: #A02C2C;
+  border-radius: 25px;
+}
 .timeline-wrapper {
  margin-left: 2rem;
   border-left: 1px solid #909090;

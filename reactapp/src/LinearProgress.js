@@ -115,11 +115,14 @@ export default function LinearWithValueLabel() {
                     </Box>
                 
                     <Box display="flex" alignItems="center">
-                        <Box width="100%" mr={1}>
-                            <StyledLinearProgress style={{borderRadius:50}}variant="determinate" value={55}/>
-                        </Box>
+                        
+                            <div className='ligne1'>
+                                <div className='ligne2'></div>    
+                             </div>
+
+                        
                         <Box >
-                            <Typography variant="body2" style={{color:'#A02C2C', fontSize:13, fontFamily:'poppins'}}>{`55%`}</Typography>
+                            <Typography variant="body2" style={{color:'#A02C2C', fontSize:13, fontFamily:'poppins', marginLeft:8}}>{`55%`}</Typography>
                         </Box>
                     </Box>
                 

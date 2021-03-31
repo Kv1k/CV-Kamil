@@ -9,6 +9,8 @@ import {
   CardTitle, Row, Col
 } from 'reactstrap';
 import styled from "styled-components";
+import { Parallax } from "react-parallax";
+
 
 
 import Modal from 'react-modal';
@@ -43,7 +45,12 @@ export default function Section4() {
   var closeModal=()=>{
       setIsOpen(false);
   }
+
   const Hero = styled.div`
+  display:'flex';
+  flex-direction:'column';
+  align-items:'center';
+  font-family:'Poppins';
   padding:0;
   margin:0;
   width: 100%;
@@ -52,28 +59,23 @@ export default function Section4() {
     min-height:800px;
 
   }
-  background-image: url(${Background}); no-repeat;
   background-size: cover;
   @media screen and (max-width: 1199px) {
     margin-bottom: 7px;
     width: 100%;
     height: 770px;
-    background-image: url(${Background}); no-repeat;
   }
   @media screen and (max-width: 991px) {
     width: 100%;
     margin-bottom: 10px;
     height: 1050px;
-    background-image: url(${BackgroundTabletteV}); no-repeat;
   }
   @media screen and (max-width: 767px)  {
     margin-bottom: 5px;
    
     
       width: 100%;
-      height: 400px;
-      background-image: url(${BackgroundHorizontale}); no-repeat;
-    
+      height: 400px;    
    
   }
 
@@ -83,22 +85,37 @@ export default function Section4() {
       width: 100%;
       height: 800px;
       margin-bottom: 5px;
-      background-image: url(${BackgroundVerticale}); no-repeat;
     }
     @media screen and (min-height: 701px) {
       width: 100%;
       height: 846px;
       margin-bottom: 8px;
-      background-image: url(${BackgroundVerticale}); no-repeat;
     }
   }
   
 `;
-  return (
+var theBackground;
 
-      <Hero id={'section4'}>
-        <div style={{height:'100%', backgroundColor:'rgb(0,0,0,0.2)'
-        ,display:'flex', flexDirection:'column', alignItems:'center',fontFamily:'Poppins'}}> 
+if (window.matchMedia("(min-width: 1199px)").matches) {
+  theBackground=Background
+} 
+else if (window.matchMedia("(max-width: 575px)").matches) {
+  theBackground=BackgroundVerticale
+}
+else if (window.matchMedia("(max-width: 767px)").matches) {
+  theBackground=BackgroundHorizontale
+}
+else if (window.matchMedia("(max-width: 991px)").matches) {
+  theBackground=BackgroundTabletteV
+}
+else if (window.matchMedia("(min-width: 991px)").matches) {
+  theBackground=Background
+}
+  return (
+    <div id={'section4'}>
+    <Parallax style={{height:"100%"}} strength={200} bgImage={theBackground}>
+      <Hero >
+       
           
 
 
@@ -659,7 +676,6 @@ export default function Section4() {
           </Col>          
 
         </Row>
-      </div>
         
       <Modal
           isOpen={modalIsOpen}
@@ -680,6 +696,8 @@ export default function Section4() {
           
         </Modal>
       </Hero>
+    </Parallax>
+    </div>
        
       
     

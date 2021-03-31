@@ -1,5 +1,5 @@
 import React from "react";
-import { Col } from "reactstrap";
+import { Parallax } from "react-parallax";
 import styled from "styled-components";
 import Background from './moi.jpg'
 import BackgroundVerticale from './moi-mobile.jpg'
@@ -18,9 +18,6 @@ export default function Section1() {
     margin:0;
     width: 100%;
     height: 100vh;
-    background-image: url(${Background}); no-repeat;
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover;
 
     @media screen and (min-width: 1800px) {
       min-height:980px;
@@ -43,15 +40,11 @@ export default function Section1() {
         @media screen and (min-height: 391px) {
         width: 100%;
         height: 1000px;
-        background-color: rgb(0,0,0,0.65);
-        background-image: url(${BackgroundTabletteV}); no-repeat;
         margin-bottom: 10px;
         }
         @media screen and (max-height: 390px) {
           width: 100%;
           height: 390px;
-          background-color: rgb(0,0,0,0.65);
-          background-image: url(${BackgroundHorizontale}); no-repeat;
           margin-bottom: 10px;
           }
   
@@ -59,7 +52,7 @@ export default function Section1() {
     
 
     @media screen and (max-width: 767px)  {
-      background-image: url(${BackgroundHorizontale}); no-repeat;
+   
 
       margin-bottom: 7px;
       @media screen and (min-height: 351px)  {
@@ -81,13 +74,11 @@ export default function Section1() {
         width: 100%;
         height: 685px;
         margin-bottom: 5px;
-        background-image: url(${BackgroundVerticale}); no-repeat;
       }
       @media screen and (min-height: 701px) {
         width: 100%;
         height: 836px;
         margin-bottom: 7px;
-        background-image: url(${BackgroundVerticale}); no-repeat;
       }
     }
     
@@ -197,15 +188,31 @@ const Trait2 = styled.div`
 
   }
 `;
+ var theBackground;
 
-  
+if (window.matchMedia("(min-width: 1199px)").matches) {
+  theBackground=Background
+} 
+else if (window.matchMedia("(max-width: 575px)").matches) {
+  theBackground=BackgroundVerticale
+}
+else if (window.matchMedia("(max-width: 767px)").matches) {
+  theBackground=BackgroundHorizontale
+}
+else if (window.matchMedia("(max-width: 991px)").matches) {
+  theBackground=BackgroundTabletteV
+}
+else if (window.matchMedia("(min-width: 991px)").matches) {
+  theBackground=Background
+}
   return (
     
 
     <div id={'section1'} >
+      
+     <Parallax style={{height:"100%"}} strength={200} bgImage={theBackground}>
       <Hero >
-       
-      <div style={{ backgroundColor:'rgb(0,0,0,0.4)', width:'100%', height:'100%'}}>
+   
 
     
         {/* *********************************************************************************
@@ -378,8 +385,9 @@ const Trait2 = styled.div`
           </Function>
         
         </div>
-        </div>
-      </Hero>
+        </Hero>
+        </Parallax>     
+    
     </div>
    
      
